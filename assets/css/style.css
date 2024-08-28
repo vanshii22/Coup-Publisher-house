@@ -260,6 +260,8 @@ li{
  #card-section{
   padding: 6rem 0rem;
   display: flex;
+  /* flex-wrap: wrap; */
+ 
   align-items: center;
   justify-content: space-between;
 } 
@@ -267,9 +269,10 @@ li{
   background-color: var(--cardbg);
   padding: 4rem 1rem;
   border: none;
+  width:25rem;
 }
 #card-section .card img{
-  margin-left: 0.5rem;
+  margin-left: 0.7rem;
   margin-bottom: 1rem;
   width: 4rem;
 }
@@ -299,6 +302,9 @@ li{
   position: relative;
   padding:1.2rem;
   
+}
+.ceo-img img{
+  height: 460px;
 }
 
 .ceo-img::before {
@@ -371,7 +377,9 @@ li{
   padding:1.2rem;
   margin-left: 6rem;
 }
-
+.director-img img{
+  height: 440px;
+}
 .director-img::before {
   position: absolute;
  
@@ -440,7 +448,9 @@ li{
   padding:1.2rem;
   
 }
-
+.director2-img img{
+  height:440px
+}
 .director2-img::before {
   position: absolute;
  
@@ -898,4 +908,314 @@ li{
 .form-control:focus, .form-control:hover {
   border-color: #cc302b;
   box-shadow: none;
+}
+
+
+
+/* Responsiveness */
+
+@media screen and (min-width:1000px) and (max-width:1024px) {
+ /* Header */
+  .contact-link a{
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+  .contact-link i{
+    margin-right: 0.2rem;
+  }
+  .social-link i{
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+  /* Hero Section */
+  
+  .main-banner-content h1 {
+    width: 100%;
+  }
+ 
+  .carousel-item .hero2 .main-banner-content{
+    width: 100%;
+  }
+ 
+  .carousel-item .hero3 .main-banner-content{
+    width: 90%;
+  }
+  .carousel-item .hero1 .main-banner-content{
+    width: 90%;
+  }
+  /* Card Section */
+  
+  #card-section{
+    /* flex-wrap: wrap; */
+    padding: 4rem 0rem;
+    
+  } 
+ 
+  #card-section .card{
+    /* margin-top: 3rem; */
+    max-height: 320px;
+    margin-right: 1rem;
+  }
+/* Ceo section */
+.ceo {
+  position: relative;
+  padding: 4rem 0rem;
+  /* background-color: #004A80; */
+}
+.ceo .heading{
+  margin-bottom:1rem;
+  margin-top: 0rem;
+}
+
+.ceo-img {
+  position: relative;
+  padding:1.2rem;
+  
+}
+.ceo-img img{
+  height: 510px;
+}
+
+
+.ceo-info{
+  padding-left: 2rem;
+  margin-top: 2rem;
+}
+.ceo-info .heading span{
+  color: var(--span-text);
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: normal;
+  text-transform: capitalize;
+}
+.ceo-info .heading {
+   font-size: 1.2rem;
+   font-weight: 700;
+   width: 100%;
+}
+.ceo-info .para{
+  font-size: 1.2rem;
+  color: var(--light);
+
+}
+.ceo-info .para span{
+  font-weight: 700;
+}
+.ceo-info .para .color-text{
+  color: var(--span-text);
+}
+.ceo-follow {
+  display: flex;
+  gap: 2rem;
+  margin-left: 1rem;
+}
+.ceo-follow  h5{
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.ceo-follow .social-link i{
+  color: var(--primary);
+  background: rgba(0, 74, 128, 0.20);
+  margin-top: 1rem;
+}
+/* Director */
+.director {
+  position: relative;
+  padding: 4rem 0rem;
+  /* background-color: #004A80; */
+}
+.director .heading{
+  margin-bottom:1rem;
+  margin-top: 0rem;
+}
+
+.director-img {
+  position: relative;
+  padding:1.2rem;
+  margin-left: 1rem;
+}
+.director-img img{
+  height: 500px;
+}
+.director-info{
+  margin-top: 2rem;
+}
+.director-follow {
+  margin-left: 2rem;
+}
+/* director2 */
+.director2 {
+  position: relative;
+  padding: 4rem 0rem;
+  
+}
+.director2-img img{
+  height: 500px;
+}
+
+.director2-info{
+  padding-left: 1rem;
+}
+
+.director2-follow {
+  display: flex;
+  gap: 2rem;
+  margin-left: 2rem;
+}
+/* Launch Section */
+#launch{
+  padding: 4rem 0rem;
+
+}
+.launch-card{
+  display: flex;
+  flex-wrap: wrap;
+}
+#launch .heading p{
+  font-size: 1.2rem;
+  width: 100%;
+  margin-left: 0rem;
+}
+#launch .card{
+  background-color: var(--primary);
+  color: var(--text);
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 2rem;
+  
+}
+/* school section */
+#school{
+  padding: 4rem 0rem;
+  background-color: var(--banner);
+
+}
+
+#school .card{
+  background-color: var(--primary);
+  color: var(--text);
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-right: 1rem;
+  
+}
+/* Newsletter */
+#newsletter{
+  padding: 4rem 0rem;
+}
+
+
+#newsletter p{
+  color: var(--text);
+  width: 80%;
+  font-size: 1.2rem;
+}
+
+/* Footer */
+.footer {
+  padding-top: 4rem;
+  background-color: var(--footer);
+}
+
+.footer-content{
+  font-size: 1rem;
+  color: var(--light);
+}
+
+
+
+}
+
+@media screen and (min-width:1280px) and (max-width:1396px){
+ /* Header */
+ .contact-link a{
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+.contact-link i{
+  margin-right: 0.2rem;
+}
+.social-link i{
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+ /* Hero Section */
+  
+ .main-banner-content h1 {
+  width: 100%;
+}
+
+.carousel-item .hero2 .main-banner-content{
+  width: 100%;
+}
+
+.carousel-item .hero3 .main-banner-content{
+  width: 90%;
+}
+.carousel-item .hero1 .main-banner-content{
+  width: 90%;
+}
+/* Card Section */
+  
+#card-section{
+  /* flex-wrap: wrap; */
+  padding: 4rem 0rem;
+  
+} 
+
+#card-section .card{
+  /* margin-top: 3rem; */
+  max-height: 320px;
+  margin-right: 1rem;
+}
+/* ceo section */
+
+.ceo-info{
+  padding-left: 3rem;
+  margin-top: 2rem;
+}
+/* director2 */
+.director2-info{
+  padding-left: 3rem;
+}
+/* Launch */
+#launch{
+  padding: 6rem 0rem;
+
+}
+
+
+#launch .heading p{
+  font-size: 1.2rem;
+  width: 90%;
+  margin-left: 5rem;
+}
+#launch .card{
+  background-color: var(--primary);
+  color: var(--text);
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-right: 1rem;
+  max-height:200px
+}
+/* school */
+
+#school .card{
+  margin-right: 1rem;
+  
+}
+/* newsletter */
+#newsletter p{
+  color: var(--text);
+  width: 80%;
+  font-size: 1.2rem;
+}
+/* footer */
+.footer .list-unstyled a{
+  text-decoration: none;
+  color: var(--light);
+  font-size: 1.1rem;
+  
+}
+
 }

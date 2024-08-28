@@ -105,7 +105,7 @@
   <!-- Hero section end -->
   <!-- Card Section -->
   <div id="card-section" class="container">
-      <div class="card" style="width: 25rem;">
+      <div class="card" >
           <img src="assets/images/icon.png" alt="">
           <div class="card-body">
               <h5 class="card-title">Diverse Book Collection</h5>
@@ -115,7 +115,7 @@
 
 
       </div>
-      <div class="card" style="width: 25rem;">
+      <div class="card" >
           <img src="assets/images/cardicon2.png" alt="">
           <div class="card-body">
               <h5 class="card-title">Exclusive Pre-Orders</h5>
@@ -125,7 +125,7 @@
 
 
       </div>
-      <div class="card" style="width: 25rem;">
+      <div class="card" >
           <img src="assets/images/cardicon3.png" alt="">
           <div class="card-body">
               <h5 class="card-title">Author Spotlights</h5>
@@ -141,9 +141,9 @@
   <section class="ceo section" id="ceo">
       <div class="container">
           <div class="row align-items-center">
-              <div class="col-lg-6">
+              <div class="col-lg-6 col-md-6">
                   <div class="ceo-img">
-                      <img src="assets/images/shubham.png" alt="" class="img-fluid w-100" style="height:460px">
+                      <img src="assets/images/shubham.png" alt="" class="img-fluid w-100" >
                   </div>
                   <div class="ceo-follow">
                       <h5>Follow me @ </h5>
@@ -156,7 +156,7 @@
                   </div>
               </div>
 
-              <div class="col-lg-6 ">
+              <div class="col-lg-6 col-md-6">
                   <div class="ceo-info  ">
                       <div class="heading">
                           <span class="text-color">Founder & CEO</span>
@@ -213,7 +213,7 @@
               </div>
               <div class="col-lg-6">
                   <div class="director-img">
-                      <img src="assets/images/Iram.png" alt="" class="img-fluid w-100" style="height:440px">
+                      <img src="assets/images/Iram.png" alt="" class="img-fluid w-100" >
                   </div>
                   <div class="director-follow">
                       <h5>Follow me @ </h5>
@@ -237,7 +237,7 @@
           <div class="row align-items-center">
               <div class="col-lg-6">
                   <div class="ceo-img">
-                      <img src="assets/images/Karishma.png" alt="" class="img-fluid w-100" style="height:440px">
+                      <img src="assets/images/Karishma.png" alt="" class="img-fluid w-100" >
                   </div>
                   <div class="director2-follow">
                       <h5>Follow me @ </h5>
