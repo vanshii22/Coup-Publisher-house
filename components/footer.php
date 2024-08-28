@@ -72,14 +72,14 @@
     <div class="footer-copyright">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-8 col-md-6">
+                <div class="col-lg-8 col-md-12">
                     <div class="footer-content copyright ">
                         <p>Copyright ©<span>The Coup Publishing House</span> 2024. All Rights Reserved</p>
                      
 
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-12">
                     <div class="footer-content naestinn ">
                         <p>Designed & Developed by <span>Naestinn</span></p>
                        

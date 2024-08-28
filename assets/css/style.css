@@ -365,7 +365,7 @@ li{
 .director {
   position: relative;
   padding: 6rem 0rem;
-  /* background-color: #004A80; */
+ 
 }
 .director .heading{
   margin-bottom:1rem;
@@ -1218,4 +1218,461 @@ li{
   
 }
 
+}
+@media screen and (min-width:768px) and (max-width:912px){
+/* Header */
+.contact-link a{
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+}
+.contact-link i{
+  margin-right: 0.5rem;
+}
+.social-link{
+  gap: 2rem;
+}
+.social-link i{
+  font-size: 0.8rem;
+  padding: 0.5rem;
+}
+/* Navbar  */
+.btn{
+  margin-left: 0rem;
+}
+/* Hero section */
+.subtitle{
+  color: var(--subheading);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: none;
+  font-weight: 600;
+  width: 100%;
+}
+
+
+.main-banner-content h1 {
+  font-size:1.8rem;
+  font-weight: 800;
+  width: 100%;
+
+}
+.main-banner-content p{
+  font-size:1rem;
+  width: 100%;
+  font-weight: 500;
+}
+
+.banner-main-3 .btn-main{
+  margin-left: 0rem;
+  padding: 0.6rem 1.2rem;
+  
+}
+.btn-container a{
+  font-size: 0.9rem;
+}
+.banner-main-3 .btn-main-2{
+  margin-left: 0rem;
+  padding: 0.6rem 1.2rem;
+  background-color: var(--btn-bg);
+}
+
+
+.carousel-item .hero1{
+  background: url("../images/heroslider1.png");
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+
+}
+.carousel-item .hero2{
+  background: url("../images/heroslider3.png");
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  /* padding: 9.5rem 0rem; */
+}
+.carousel-item .hero3{
+  background: url("../images/heroslider2.png");
+ object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  /* padding: 9rem 0rem; */
+}
+.carousel-item .hero3 .main-banner-content{
+  width: 100%;
+}
+.carousel-item .hero1 .main-banner-content{
+  width: 100%;
+}
+.carousel-item .hero2 .main-banner-content{
+  width: 100%;
+}
+/* Card Section */
+#card-section{
+  flex-wrap: wrap;
+  padding: 3rem 0rem;
+  
+} 
+
+#card-section .card{
+  margin-top: 2.3rem;
+  margin-left: 22%;
+}
+/* Ceo section */
+.ceo {
+  position: relative;
+  padding: 3rem 0rem;
+
+}
+.ceo .heading{
+  margin-bottom:1rem;
+  margin-top: 0rem;
+}
+ 
+
+.ceo-img img{
+  height: 400px;
+  
+}
+.ceo-info{
+  padding-left: 0rem;
+  margin-top: 2rem;
+}
+.ceo-follow h5{
+  margin-top: 1.2rem;
+}
+/* director */
+.director {
+  position: relative;
+  padding: 3rem 0rem;
+  
+  /* background-color: #004A80; */
+}
+
+.director-img img{
+  height: 400px;
+  
+}
+.director-follow h5{
+  margin-top: 1.2rem;
+}
+
+.director-img {
+  position: relative;
+  padding:1.2rem;
+  margin-left: 0rem;
+}
+/* director2 */
+.director2 {
+  position: relative;
+  padding: 3rem 0rem;
+  
+}
+.director2-img img{
+  height: 400px;
+}
+
+.director2-info{
+  padding-left: 0rem;
+}
+.director2-follow h5{
+  margin-top: 1.2rem;
+}
+/* Launch Section */
+#launch{
+  padding: 3rem 0rem;
+
+}
+.launch-card{
+  display: flex;
+  flex-wrap: wrap;
+}
+#launch .heading p{
+  font-size: 1.2rem;
+  width: 100%;
+  margin-left: 0rem;
+}
+#launch .card{
+  background-color: var(--primary);
+  color: var(--text);
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 2rem;
+  width: 20rem !important;
+}
+/* school section */
+#school{
+  padding: 3rem 0rem;
+  background-color: var(--banner);
+ 
+}
+#school .card{
+  min-height: 20rem !important;
+  margin-right: 1rem;
+}
+
+/* Newsletter */
+#newsletter{
+  padding: 3rem 0rem;
+}
+.newsletter-content{
+  margin-top: 3rem;
+}
+
+#newsletter p{
+  color: var(--text);
+  width: 100%;
+  font-size: 1.2rem;
+}
+/* footer */
+.footer-content{
+  text-align: center;
+}
+}
+@media (max-width:540px) {
+  /* Header */
+.contact-link a{
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+}
+.contact-link i{
+  margin-right: 0.5rem;
+}
+.social-link{
+  gap: 2rem;
+}
+.social-link i{
+  font-size: 0.8rem;
+  padding: 0.5rem;
+}
+/* Navbar  */
+.btn{
+  margin-left: 0rem;
+}
+/* Hero section */
+.subtitle{
+  color: var(--subheading);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: none;
+  font-weight: 600;
+  width: 100%;
+}
+.main-banner-content{
+  padding: 3rem 2rem;
+}
+
+.main-banner-content h1 {
+  font-size:1.8rem;
+  font-weight: 800;
+  width: 100%;
+
+}
+.main-banner-content p{
+  font-size:1rem;
+  width: 100%;
+  font-weight: 500;
+}
+
+.banner-main-3 .btn-main{
+  margin-left: 0rem;
+  padding: 0.6rem 1.2rem;
+  
+}
+.btn-container a{
+  font-size: 0.9rem;
+}
+.banner-main-3 .btn-main-2{
+  margin-left: 0rem;
+  padding: 0.6rem 1.2rem;
+  background-color: var(--btn-bg);
+}
+
+
+.carousel-item .hero1{
+  background: url("../images/heroslider1.png");
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+
+}
+.carousel-item .hero2{
+  background: url("../images/heroslider3.png");
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  /* padding: 9.5rem 0rem; */
+}
+.carousel-item .hero3{
+  background: url("../images/heroslider2.png");
+ object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  /* padding: 9rem 0rem; */
+}
+.carousel-item .hero3 .main-banner-content{
+  width: 100%;
+}
+.carousel-item .hero1 .main-banner-content{
+  width: 100%;
+}
+.carousel-item .hero2 .main-banner-content{
+  width: 100%;
+}
+.navbar{
+  padding: 0rem 2rem;
+}
+/* Card Section */
+#card-section{
+  flex-wrap: wrap;
+  padding: 3rem 0rem;
+  
+} 
+
+#card-section .card{
+  margin-top: 2.3rem;
+  margin-left: 12%;
+}
+/* Ceo section */
+.ceo {
+  position: relative;
+  padding: 3rem 2rem;
+
+}
+.ceo .heading{
+  margin-bottom:1rem;
+  margin-top: 0rem;
+}
+ 
+
+.ceo-img img{
+  height: 400px;
+  
+}
+.ceo-info{
+  padding-left: 0rem;
+  margin-top: 2rem;
+}
+.ceo-follow {
+  margin-left: 2rem;
+}
+.ceo-follow h5{
+  margin-top: 1.2rem;
+}
+/* director */
+.director {
+  position: relative;
+  padding: 3rem 2rem;
+  
+  /* background-color: #004A80; */
+}
+
+.director-img img{
+  height: 400px;
+  
+}
+.director-follow h5{
+  margin-top: 1.2rem;
+}
+.director-follow {
+  margin-left: 2rem;
+}
+.director-img {
+  position: relative;
+  padding:1.2rem;
+  margin-left: 0rem;
+}
+/* director2 */
+.director2 {
+  position: relative;
+  padding: 3rem 2rem;
+  
+}
+.director2-img img{
+  height: 400px;
+}
+
+.director2-info{
+  padding-left: 0rem;
+}
+.director2-follow h5{
+  margin-top: 1.2rem;
+}
+.director2-follow {
+  margin-left: 2rem;
+}
+/* Launch Section */
+#launch{
+  padding: 3rem 2rem;
+
+}
+.launch-card{
+  display: flex;
+  flex-wrap: wrap;
+}
+#launch .heading p{
+  font-size: 1.2rem;
+  width: 100%;
+  margin-left: 0rem;
+}
+#launch .card{
+  background-color: var(--primary);
+  color: var(--text);
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 2rem;
+  width: 28rem !important;
+}
+/* school section */
+#school{
+  padding: 3rem 2rem;
+  background-color: var(--banner);
+ 
+}
+/* #school .card{
+  min-height: 20rem !important;
+  margin-right: 1rem;
+} */
+ .school-card{
+  display: flex;
+  flex-wrap: wrap;
+ }
+ .school-card .card{
+  width: 28rem !important;
+  margin-top: 2rem;
+ }
+ #school .btn-container {
+  margin-top: 47px;
+}
+#school .btn-container .btn-main-2{
+  margin-top: 0.5rem;
+}
+/* Newsletter */
+#newsletter{
+  padding: 3rem 0rem;
+}
+.newsletter-content{
+  margin-top: 3rem;
+}
+
+#newsletter p{
+  color: var(--text);
+  width: 100%;
+  font-size: 1.2rem;
+}
+/* footer */
+.footer{
+  padding: 3rem 2rem;
+}
+.footer-content{
+  text-align: center;
+}
+.footer-widget {
+  text-align: center;
+}
+.footer-copy {
+  text-align: center;
+  font-size: 1rem;
+  margin-left: 3rem;
+}
 }

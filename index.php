@@ -1,7 +1,7 @@
   <!-- Navbar start -->
   <?php include_once 'components/navbar.php'; ?>
   <!-- Navbar end -->
-  <!-- Hero Section -->
+ 
   <!-- Hero Section -->
   <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
@@ -141,7 +141,7 @@
   <section class="ceo section" id="ceo">
       <div class="container">
           <div class="row align-items-center">
-              <div class="col-lg-6 col-md-6">
+              <div class="col-lg-6 ">
                   <div class="ceo-img">
                       <img src="assets/images/shubham.png" alt="" class="img-fluid w-100" >
                   </div>
@@ -156,7 +156,7 @@
                   </div>
               </div>
 
-              <div class="col-lg-6 col-md-6">
+              <div class="col-lg-6 ">
                   <div class="ceo-info  ">
                       <div class="heading">
                           <span class="text-color">Founder & CEO</span>
@@ -188,7 +188,7 @@
   <section class="director section" id="director">
       <div class="container">
           <div class="row align-items-center">
-              <div class="col-lg-6 ">
+              <div class="col-lg-6 order-lg-1 order-2 ">
                   <div class="director-info  ">
                       <div class="heading">
                           <span class="text-color">Managing Director & Exam Controller</span>
@@ -211,7 +211,7 @@
                       <img src="images/about/2.png" alt="" class="img-fluid">
                   </div>
               </div>
-              <div class="col-lg-6">
+              <div class="col-lg-6 order-lg-2 order-1">
                   <div class="director-img">
                       <img src="assets/images/Iram.png" alt="" class="img-fluid w-100" >
                   </div>
@@ -392,7 +392,7 @@
   <section id="newsletter">
       <div class="container">
           <div class="row">
-              <div class="col-lg-7 col-sm-12 col-md-6">
+              <div class="col-lg-7 col-sm-12 col-md-12 order-lg-1 order-2">
                   <div class="newsletter-content">
                       <span class="subtitle">NEWSLETTER TO GET IN TOUCH</span>
                       <h3>
@@ -407,7 +407,7 @@
                       </div>
                   </div>
               </div>
-              <div class="col-lg-5 col-md-6">
+              <div class="col-lg-5 col-sm-12 col-md-12 order-lg-2 order-1">
                   <div class="newsletter-img">
                       <img src="assets/images/newsletter.png" alt="" class="img-fluid w-100">
                   </div>
