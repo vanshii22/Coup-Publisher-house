@@ -24,6 +24,10 @@
   
 
 }
+a{
+  text-decoration: none;
+  color: var(--text);
+}
 li{
     list-style-type: none;
 }
@@ -730,6 +734,22 @@ li{
   height: 44vh;
   padding: 6rem 0rem;
 }
+ .contact-page{
+  background: url("../images/contact.png") !important;
+ background-size: cover;
+ background-position: center;
+
+  height: 41vh !important;
+  padding: 6rem 0rem;
+}
+.books{
+  background: url("../images/books.png") !important;
+  background-size: cover;
+  background-position: center;
+ 
+   height: 41vh !important;
+   padding: 6rem 0rem;
+}
 #breadcrumb .breadcrumb{
   display: flex;
   align-items: center;
@@ -790,8 +810,8 @@ li{
 }
 .about2-img{
  position: absolute;
-  bottom:50px;
-  left:510px;
+  bottom:3.5rem;
+  left:32rem;
 }
 .about-list{
     /* margin-top: 2.8rem; */
@@ -813,4 +833,69 @@ li{
 .about-heading h3{
   font-size: 1.7rem;
   font-weight: 600;
+  margin-top: 1rem;
+}
+#coup-section .btn{
+  border-radius: 1.2rem;
+  margin-left: 0rem;
+  background-color: var(--primary);
+  color: var(--text);
+  border: var(--primary);
+  padding: 0.5rem 1.5rem;
+  text-transform: uppercase;
+}
+
+/* Best seller */
+#bestseller{
+  padding: 6rem 0rem;
+  background-color: var(--banner);
+}
+
+/* Contact  */
+#contact{
+  padding: 6rem 0rem;
+}
+#contact p{
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+#contact h2{
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: var(--light);
+}
+#contact textarea{
+  margin-top: 2rem;
+  resize: none;
+  height: 200px;
+}
+
+#contact h4{
+  font-size: 1.5rem;
+}
+.contact-info-block h4 {
+  margin-bottom: 0px;
+  margin-left: 4rem;
+}
+.contact-info-block p{
+  margin-left: 4rem;
+}
+
+.contact-info-block i {
+  font-size: 40px;
+  margin-bottom: 20px;
+  display: block;
+  color: #cc302b;
+}
+
+.form-control {
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  background: #F4F7FC;
+  height: 60px;
+  padding-left: 15px;
+}
+
+.form-control:focus, .form-control:hover {
+  border-color: #cc302b;
+  box-shadow: none;
 }

@@ -33,7 +33,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 ">
+            <div class="col-lg-6 about-right">
                 <div class="about-heading">
                     <h3>We are The COUP </h3>
                 </div>
@@ -47,6 +47,7 @@
                     <p>We can’t wait to share our enthusiasm & learning with the true aspirants.</p>
                     <p>May the Almighty guide us in this pursuit of imparting learning !</p>
                 </div>
+                <button class="btn btn-outline-success" type="submit">Contact Us</button>
             </div>
         </div>
     </div>
@@ -229,118 +230,9 @@
     </div>
 </section>
 <!-- About section end -->
-<!-- Launch section -->
-<section id="launch">
-    <div class="container">
-        <div class="heading">
-            <h3>Launching Soon</h3>
-            <p>Stay ahead of the curve with our upcoming titles. Exciting stories and groundbreaking insights
-                await—don’t miss out!</p>
-        </div>
-        <div class="launch-card">
-            <div class="card" style="width: 18rem; min-height:19rem">
 
-                <div class="card-body">
-                    <div class="card-title">
-                        <p>Class XII English </p>
-                        <p>Quick Revision </p>
-                        <p>Book</p>
-                    </div>
-                    <a href="#">Launching Soon</a>
-                </div>
-            </div>
-            <div class="card" id="card2" style="width: 18rem; min-height:19rem">
-
-                <div class="card-body">
-                    <div class="card-title">
-                        <p>Class XII </p>
-                        <p>Chemistry Quick </p>
-                        <p>Revision Book</p>
-                    </div>
-                    <a href="#">Launching Soon</a>
-                </div>
-            </div>
-            <div class="card" id="card3" style="width: 18rem; min-height:19rem">
-
-                <div class="card-body">
-                    <div class="card-title">
-                        <p>BOOK ON </p>
-                        <p>ENGLISH </p>
-                        <p>GRAMMAR</p>
-                    </div>
-                    <a href="#">Launching Soon</a>
-                </div>
-            </div>
-            <div class="card" id="card4" style="width: 18rem; min-height:19rem">
-
-                <div class="card-body">
-                    <div class="card-title">
-                        <p>A HINDI STORY </p>
-
-                        <p>Book</p>
-                    </div>
-                    <a href="#">Launching Soon</a>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</section>
-<!-- launch section end -->
-<!-- school section start -->
-<section id="school">
-    <div class="container">
-        <div class="heading">
-            <h3>Dear Schools</h3>
-            <p>Join our Experts for the followings</p>
-        </div>
-        <div class="school-card">
-            <div class="card" style="width: 25rem; min-height:16rem">
-
-                <div class="card-body">
-                    <div class="card-title">
-                        <p>Career Counselling </p>
-
-                    </div>
-                    <a href="#">@79* Per Student</a>
-                </div>
-            </div>
-            <div class="card" id="card2" style="width: 25rem; min-height:16rem">
-
-                <div class="card-body">
-                    <div class="card-title">
-                        <p>Motivational Session </p>
-
-                    </div>
-                    <a href="#">@49* Per Student</a>
-                </div>
-            </div>
-
-            <div class="card" id="card4" style="width: 25rem; min-height:16rem">
-
-                <div class="card-body">
-                    <div class="card-title">
-                        <p>Teacher's Training </p>
-
-                        <p>Program</p>
-                    </div>
-                    <a href="#">@299* Per Teacher</a>
-                </div>
-            </div>
-        </div>
-        <div class="section-bottom">
-            <p>For more Details -
-            <p>
-            <div class="btn-container">
-                <a href="#" target="_blank" class="btn btn-main"> Call : 8267-9923-05</a>
-                <a href="#" target="_blank" class="btn btn-main-2 ml-0 ml-lg-2 ">Contact Us</a>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- section end -->
 <!-- Newsletter section -->
-<div id="newsletter">
+<section id="newsletter">
     <div class="container">
         <div class="row">
             <div class="col-lg-7 col-sm-12 col-md-6">
@@ -365,8 +257,8 @@
             </div>
         </div>
     </div>
-</div>
+</section>
 <!-- section end -->
-<!-- Footer -->
+
 <!-- Footer -->
 <?php include_once 'components/footer.php'; ?>
