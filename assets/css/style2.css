@@ -1,0 +1,174 @@
+
+
+/* =========== Custom scrollbar=========== */
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FF6B00; 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #004A80; 
+}
+
+::-webkit-scrollbar-corner {
+    background: #f1f1f1;
+}
+
+
+/* =========== Feature Section =========== */
+
+
+.feature_sec .card_wrapper {
+    gap: 2.5rem;
+}
+.feature_sec .card_wrapper .card {
+    border: none;
+    width: 30%;
+    background: #F6F6F6;
+}
+.feature_sec .card_wrapper .card .card-title{
+    font-weight: bold;
+}
+
+/* =========== Our Team Section =========== */
+
+.span-text {
+    font-weight: bold;
+    color: #FF6B00;
+    font-size: 1.2rem;
+}
+
+.our_team .member-follow {
+    display: flex;
+    gap: 2rem;
+    justify-content: right;
+    margin-right: 5%;
+}
+
+.our_team .member-follow h5 {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.our_team .member-follow .social-link i {
+    color: var(--primary);
+    background: rgba(0, 74, 128, 0.20);
+    margin-top: 1rem;
+}
+
+.social-link i{
+    color:#fff;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 1rem;
+  }
+ .our_team .member-img img{
+    width: 95%;
+ }
+
+
+/* =========== New Book Launch Section =========== */
+
+.new_book_launch .heading h3, .session_program .heading h3{
+    font-weight: 600;
+}
+
+ .new_book_launch .card_wrapper, .session_program .card_wrapper  {
+    gap: 2.5rem;
+}
+
+.new_book_launch .card_wrapper .card {
+    border: none;
+    width: 22%;
+}
+.new_book_launch .card_wrapper .card:nth-child(1) {
+    background: #004A80;
+}
+.new_book_launch .card_wrapper .card:nth-child(2) {
+    background: #FF6B00;
+}
+.new_book_launch .card_wrapper .card:nth-child(3) {
+    background: #803654;
+}
+.new_book_launch .card_wrapper .card:nth-child(4) {
+    background: #1A702D;
+}
+
+.new_book_launch .card_wrapper .card .card-title,   .session_program .card_wrapper .card .card-title {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+.new_book_launch .card_wrapper .card a, .session_program .card_wrapper .card a {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+/* =========== Session & ProgramsSection =========== */
+
+
+.session_program {
+    background: #F7F1EC;
+}
+
+.session_program .card_wrapper .card {
+    border: none;
+    width: 30%;
+}
+
+.session_program .card_wrapper .card:nth-child(1) {
+    background: #004A80;
+}
+
+.session_program .card_wrapper .card:nth-child(2) {
+    background: #FF6B00;
+}
+
+.session_program .card_wrapper .card:nth-child(3) {
+    background: #1A702D;
+}
+
+/* =========== Newsletter Section =========== */
+
+.newsletter_wrapper{
+    background-color: #004A80;
+}
+.newsletter_sec .newsletter-content h3{
+    margin: 1rem 0;
+    font-size: 3rem;
+}
+.newsletter_sec .newsletter-content p{
+    width: 70%;
+    font-size: 1.2rem;
+}
+.newsletter_sec .newsletter-content form input{
+    padding: 0.5rem 3rem 0.5rem;
+    border-radius: 2rem;
+    border: none;
+}
+.newsletter_sec .newsletter-content form button{
+    background: #FF6B00;
+    color: #ffffff;
+}
+
+/* =========== Footer =========== */
+
+footer, section{
+    overflow-x: hidden;
+}
+
+
+/* =========== About Us - Vision =========== */
+
+section.vision{
+    background-color: var(--banner);
+}

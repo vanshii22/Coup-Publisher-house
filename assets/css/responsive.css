@@ -1,0 +1,92 @@
+
+
+@media screen and (max-width: 1024px) {
+    .nav-link{
+        font-size: 1rem;
+    }
+    .new_book_launch .card_wrapper .card{
+        width: 30%;
+    }
+    .newsletter_sec .newsletter-content form input{
+        padding: 0.5rem 1rem 0.5rem;
+    }
+    .newsletter_sec .newsletter_wrapper img{
+        width: 50%;
+    }
+    
+    
+}
+@media screen and (max-width: 768px) {
+    .feature_sec .card_wrapper .card, .new_book_launch .card_wrapper .card, .session_program .card_wrapper .card {
+        width: 45%;
+    }
+    .our_team .member:nth-child(2) .member-img-wrapper{
+        order: -1;
+    }
+    .social-link i{
+        font-size: 0.8rem;
+        padding: 0.5rem;
+      }
+    .top_email, .top_tag {
+        display: none !important;
+    }
+    .newsletter_sec .newsletter_wrapper {
+        text-align: center;
+    }
+    .newsletter_sec .newsletter-content p{
+        width: 100%;
+    }
+    .newsletter_sec img{
+        margin-top: 2rem;
+        width: 100% !important;
+    }
+    .intro_sec .about_content{
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .container {
+        width: 90% !important;
+    }
+    .navbar .container {
+        width: 100% !important;
+    }
+     
+    .main-banner-content{
+        padding: 1rem 1rem !important;
+    }
+    .banner-main-3{
+        padding: 1rem 0 !important;
+    }
+     
+    .carousel-item .hero1, .carousel-item .hero2, .carousel-item .hero3{
+        background: none !important;
+        background-color: #FBF3EC !important;
+    }
+    .feature_sec .card_wrapper .card, .new_book_launch .card_wrapper .card, .session_program .card_wrapper .card {
+        width: 100%;
+    }
+    .newsletter_sec .newsletter-content h3{
+        font-size: 2rem;
+    }
+    .newsletter_sec .newsletter_wrapper .row{
+        padding: 2rem !important;
+    }
+    .newsletter_sec .newsletter_wrapper form input{
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+ 
+    .banner-main-3{
+        padding: 1.5rem !important;
+    }
+    .our_team .member-img img{
+        width: 100%;
+     }
+     .session_program .btn-part a:nth-child(2){
+        margin: 1rem 0;
+     }
+}

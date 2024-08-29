@@ -9,4 +9,3 @@ function makeSticky() {
   }
 }
 
-// Add active class
