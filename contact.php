@@ -21,7 +21,7 @@
                     us.</p>
                </div>
             </div>
-        </div> <!-- / .row -->
+        </div> 
 
         <div class="row">
             <div class="col-lg-7 col-sm-12 pr-5 col-md-8">
@@ -53,7 +53,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-12">
+                    <div class="col-lg-12 ">
                         <div class="d-lg-flex justify-content-between mt-4">
                             <p>* Rest assured.We will not spam at your inbox.</p>
                             <input id="submit" name="submit" type="submit" class="btn btn-main btn-rounded" value="Send Message">
@@ -81,16 +81,16 @@
             </div>
         </div>
     </div>
-</section>
+</section> 
   <!-- Contact end -->
  <!-- Seller Section -->
   <section id="bestseller">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6 col-sm-12">
                 <img src="assets/images/section3contact.png" alt="img1">
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6 col-sm-12">
                 <img src="assets/images/contactsec3-2.png" alt="img2">
             </div>
         </div>
@@ -102,7 +102,7 @@
   <section id="newsletter">
       <div class="container">
           <div class="row">
-              <div class="col-lg-7 col-sm-12 col-md-6">
+              <div class="col-lg-7 col-sm-12 col-md-12 order-lg-1 order-2">
                   <div class="newsletter-content">
                       <span class="subtitle">NEWSLETTER TO GET IN TOUCH</span>
                       <h3>
@@ -117,7 +117,7 @@
                       </div>
                   </div>
               </div>
-              <div class="col-lg-5 col-md-6">
+              <div class="col-lg-5 col-sm-12 col-md-12 order-lg-2 order-1">
                   <div class="newsletter-img">
                       <img src="assets/images/newsletter.png" alt="" class="img-fluid w-100">
                   </div>

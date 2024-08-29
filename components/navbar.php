@@ -18,9 +18,9 @@
         </div>
     </div>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt=""></a>
+            <a class="navbar-brand" href="index.php"><img src="assets/images/logo.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -38,15 +38,15 @@
                         <a class="nav-link" href="books.php">Our books</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Our Value</a>
+                        <a class="nav-link" href="#launch">Our Value</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ">Team</a>
+                        <a class="nav-link " href="#ceo">Team</a>
                     </li>
                 </ul>
                 <form class="d-flex">
 
-                    <button class="btn btn-outline-success" type="submit">Contact Us</button>
+                    <button class="btn btn-outline-success" type="submit" id="navbar-btn" >Contact Us</button>
                 </form>
             </div>
         </div>

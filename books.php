@@ -69,32 +69,33 @@
   </section>
   <!-- launch section end -->
     <!-- Newsletter section -->
-  <section id="newsletter">
-      <div class="container">
-          <div class="row">
-              <div class="col-lg-7 col-sm-12 col-md-6">
-                  <div class="newsletter-content">
-                      <span class="subtitle">NEWSLETTER TO GET IN TOUCH</span>
-                      <h3>
-                          Stay With Us
-                      </h3>
-                      <p class="mb-3 mt-4">Subscribe to our newsletters now and stay up-to-date with new collections,
-                          the latest lookbooks and exclusive offers.</p>
+<section id="newsletter">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 col-sm-12 col-md-12 order-lg-1 order-2">
+                <div class="newsletter-content">
+                    <span class="subtitle">NEWSLETTER TO GET IN TOUCH</span>
+                    <h3>
+                        Stay With Us
+                    </h3>
+                    <p class="mb-3 mt-4">Subscribe to our newsletters now and stay up-to-date with new collections,
+                        the latest lookbooks and exclusive offers.</p>
 
-                      <div class="btn-container">
-                          <input type="email" name="" id="email" placeholder="Enter Email address">
-                          <a href="#" target="_blank" class="btn btn-main-2 ml-0 ml-lg-2 ">Subscribe</a>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-lg-5 col-md-6">
-                  <div class="newsletter-img">
-                      <img src="assets/images/newsletter.png" alt="" class="img-fluid w-100">
-                  </div>
-              </div>
-          </div>
-      </div>
+                    <div class="btn-container">
+                        <input type="email" name="" id="email" placeholder="Enter Email address">
+                        <a href="#" target="_blank" class="btn btn-main-2 ml-0 ml-lg-2 ">Subscribe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-sm-12 col-md-12 order-lg-2 order-1">
+                <div class="newsletter-img">
+                    <img src="assets/images/newsletter.png" alt="" class="img-fluid w-100">
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
   <!-- section end -->
+
   <!-- Footer -->
   <?php include_once 'components/footer.php'; ?>

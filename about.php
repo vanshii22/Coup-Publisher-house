@@ -2,10 +2,10 @@
  <?php include_once 'components/navbar.php'; ?>
   <!-- Navbar end -->
 <!-- breadcrumbt start -->
-<section id="breadcrumb">
+<section id="breadcrumb" class="about-page">
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item active" aria-current="page"><a href="">About Us</a></li>
+            <li class="breadcrumb-item active text-center" aria-current="page"><a href="">About Us</a></li>
         </ol>
     </nav>
 </section>
@@ -14,7 +14,7 @@
 <section id="coup-section">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-lg-6">
+            <div class="col-lg-7 col-md-12">
                 <div class="about-img">
                     <div class="about-1">
                         <img src="assets/images/aboutsec2.png" alt="" class="about1-img">
@@ -33,7 +33,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 about-right">
+            <div class="col-lg-5 col-md-12 about-right">
                 <div class="about-heading">
                     <h3>We are The COUP </h3>
                 </div>
@@ -140,7 +140,7 @@
 <section class="director section" id="director">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-lg-6 ">
+            <div class="col-lg-6 order-lg-1 order-2 ">
                 <div class="director-info  ">
                     <div class="heading">
                         <span class="text-color">Managing Director & Exam Controller</span>
@@ -163,7 +163,7 @@
                     <img src="images/about/2.png" alt="" class="img-fluid">
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 order-lg-2 order-1 ">
                 <div class="director-img">
                     <img src="assets/images/Iram.png" alt="" class="img-fluid w-100" style="height:440px">
                 </div>
@@ -235,7 +235,7 @@
 <section id="newsletter">
     <div class="container">
         <div class="row">
-            <div class="col-lg-7 col-sm-12 col-md-6">
+            <div class="col-lg-7 col-sm-12 col-md-12 order-lg-1 order-2">
                 <div class="newsletter-content">
                     <span class="subtitle">NEWSLETTER TO GET IN TOUCH</span>
                     <h3>
@@ -250,7 +250,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-5 col-md-6">
+            <div class="col-lg-5 col-sm-12 col-md-12 order-lg-2 order-1">
                 <div class="newsletter-img">
                     <img src="assets/images/newsletter.png" alt="" class="img-fluid w-100">
                 </div>
