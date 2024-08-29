@@ -9,13 +9,4 @@ function makeSticky() {
   }
 }
 
-
-// For contact btn
-    var button = document.getElementById("navbar-btn");
-    button.addEventListener("click", function() {
-        window.location.href = "couppublishinghouse/contact.php"; // Navigate up one directory to contact.php
-    });
-
-
-
 // Add active class

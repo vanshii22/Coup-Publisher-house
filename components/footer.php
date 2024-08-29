@@ -11,7 +11,6 @@
 <script src="assets/js/script.js"></script>
 <!-- Footer Start -->
 <footer class="footer">
-
     <div class="footer-top section">
         <div class="container">
             <div class="row">
@@ -28,8 +27,8 @@
                         <h4>Company</h4>
 
                         <ul class="list-unstyled">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Our team</a></li>
+                            <li><a href="about.php">About Us</a></li>
+                            <li><a href="#ceo">Our team</a></li>
                             <li><a href="#">Our values</a></li>
 
                         </ul>
@@ -39,8 +38,8 @@
                     <div class="footer-widget footer-menu mb-5 mb-lg-0">
                         <h4>Important</h4>
                         <ul class="list-unstyled">
-                            <li><a href="#">Books</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="books.php">Books</a></li>
+                            <li><a href="contact.php">Contact</a></li>
 
                         </ul>
                     </div>
@@ -49,7 +48,7 @@
                     <div class="footer-widget footer-menu">
                         <h4>Contact Info</h4>
                         <ul class="list-unstyled">
-                            <li><span>Email :</span> <a href="malito:support@treaser.com">support@treaser.com</a></li>
+                            <li><span>Email :</span> <a href="mailto:support@treaser.com">support@treaser.com</a></li>
                             <li><span>Phone :</span> <a href="tel:01 369 6792">01 369 6792</a> </li>
                             <li><span>Location :</span> <a href="#">10/12 USA Road</a> </li>
                         </ul>
@@ -64,8 +63,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-7">
                     <div class="footer-copy ">
-                        <p>PRIVACY POLICY</p>
-                        <p>TERMS & CONDITIONS</p>
+                        <a href="privacy.php">PRIVACY POLICY</a>
+                        <a href="term.php">TERMS & CONDITIONS</a>
 
                     </div>
                 </div>
@@ -85,7 +84,7 @@
                 </div>
                 <div class="col-lg-4 col-md-12">
                     <div class="footer-content naestinn ">
-                        <p>Designed & Developed by <span>Naestinn</span></p>
+                        <a href="https://www.naestinn.com/" target="_blank">Designed & Developed by <span>Naestinn</span></a>
                        
 
                     </div>

@@ -46,7 +46,7 @@
                 </ul>
                 <form class="d-flex">
 
-                    <button class="btn btn-outline-success" type="submit" id="navbar-btn" >Contact Us</button>
+                    <button class="btn btn-outline-success" type="submit" id="navbar-btn" ><a href="contact.php">Contact Us</a></button>
                 </form>
             </div>
         </div>
