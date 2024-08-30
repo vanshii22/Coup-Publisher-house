@@ -1,11 +1,15 @@
- <!-- Navbar start -->
- <?php include_once 'components/navbar.php'; ?>
-  <!-- Navbar end -->
+ 
+ <?php $current_page_url = "https:www.thecouppublishinghouse.in/privacy-policy.php";
+$title = 'The Coup Publishing House | Privacy Policy';
+$description = 'The Coup Publishing House | Best books Publisher in India';
+$keywords = 'The Coup Publishing House, Best books Publisher in India';
+include_once 'components/navbar.php'; ?>
+
    <!-- breadcrumbt start -->
 <section id="breadcrumb" class="privacy-page">
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item active" aria-current="page"><a href="">Privacy Policy</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a href="#">Privacy Policy</a></li>
         </ol>
     </nav>
 </section>

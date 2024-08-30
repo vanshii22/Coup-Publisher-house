@@ -17,8 +17,7 @@
                 <div class="col-xl-4 mr-auto col-md-6 col-sm-6">
                     <div class="footer-widget logo mb-5 mb-lg-0">
                         <img src="assets/images/logo.png" alt="">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio natus laborum porro, nam
-                            id impedit</p>
+                        <p>At The Coup Publishing House, we are passionate about bringing stories to life and fostering a love for reading. With a commitment to quality and creativity.</p>
 
                     </div>
                 </div>
@@ -27,9 +26,9 @@
                         <h4>Company</h4>
 
                         <ul class="list-unstyled">
-                            <li><a href="about.php">About Us</a></li>
-                            <li><a href="#ceo">Our team</a></li>
-                            <li><a href="#">Our values</a></li>
+                            <li><a href="about-us.php">About Us</a></li>
+                            <li><a href="about-us.php#team">Our team</a></li>
+                            <li><a href="about-us.php#vision">Our Vision</a></li>
 
                         </ul>
                     </div>
@@ -38,8 +37,8 @@
                     <div class="footer-widget footer-menu mb-5 mb-lg-0">
                         <h4>Important</h4>
                         <ul class="list-unstyled">
-                            <li><a href="books.php">Books</a></li>
-                            <li><a href="contact.php">Contact</a></li>
+                            <li><a href="our-books.php">Our Books</a></li>
+                            <li><a href="contact-us.php">Contact</a></li>
 
                         </ul>
                     </div>
@@ -48,9 +47,9 @@
                     <div class="footer-widget footer-menu">
                         <h4>Contact Info</h4>
                         <ul class="list-unstyled">
-                            <li><span>Email :</span> <a href="mailto:support@treaser.com">support@treaser.com</a></li>
-                            <li><span>Phone :</span> <a href="tel:01 369 6792">01 369 6792</a> </li>
-                            <li><span>Location :</span> <a href="#">10/12 USA Road</a> </li>
+                            <li><span>Email :</span> <a href="mailto:thecouppublishinghouse@gmail.com">thecouppublishinghouse@gmail.com</a></li>
+                            <li><span>Phone :</span> <a href="tel:+918267992305">+91 8267992305</a> </li>
+                            <li><span>Location :</span> Narayanam-47 Baghpat Road Meerut</li>
                         </ul>
                     </div>
                 </div>
@@ -63,8 +62,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-7">
                     <div class="footer-copy ">
-                        <a href="privacy.php">PRIVACY POLICY</a>
-                        <a href="term.php">TERMS & CONDITIONS</a>
+                        <a href="privacy-policy.php">PRIVACY POLICY</a>
+                        <a href="terms-conditions.php">TERMS & CONDITIONS</a>
 
                     </div>
                 </div>
@@ -78,8 +77,6 @@
                 <div class="col-lg-8 col-md-12">
                     <div class="footer-content copyright ">
                         <p>Copyright ©<span>The Coup Publishing House</span> 2024. All Rights Reserved</p>
-                     
-
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12">

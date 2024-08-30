@@ -39,14 +39,14 @@ li{
 .nav-link:hover{
   color: var(--secondary) !important;
 }
-.active{
+.nav-link.active{
   font-size: 1.2rem;
   color:var(--dark);
   font-weight: 700;
 }
 .btn{
   border-radius: 1.2rem;
-  margin-left: 1.2rem;
+  /* margin-left: 1.2rem; */
   background-color: var(--primary);
   color: var(--text);
   border: var(--primary);
@@ -58,7 +58,7 @@ li{
 }
 #header {
   background-color: var(--primary);
-  padding: 1rem 0rem;
+  padding: 0.5rem 0rem;
 }
 #header .container{
   display: flex;
@@ -85,11 +85,7 @@ li{
   color: #fff;
   margin-right: 0.5rem;
 }
-.social-link i{
-  color:#fff;
-  background: rgba(255, 255, 255, 0.05);
-  padding: 1rem;
-}
+
 /*----------------------
  BANNER STYLE
 -----------------------*/
@@ -198,12 +194,7 @@ li{
 /* .heading{
   margin-bottom:50px;
 } */
-.heading span{
-  text-transform: uppercase;
-  letter-spacing:4px;
-  font-weight: 600;
-  font-size: 13px;
-}
+
 .heading h2{
   font-size: 40px;
   margin: 10px 0px;
@@ -267,421 +258,6 @@ li{
 }
 .cta-3 .cta-content .btn:hover i{
   color:#F9C200;
-}
-/* Card section */
-
- #card-section{
-  padding: 6rem 0rem;
-  display: flex;
-  /* flex-wrap: wrap; */
- 
-  align-items: center;
-  justify-content: space-between;
-} 
-#card-section .card{
-  background-color: var(--cardbg);
-  padding: 4rem 1rem;
-  border: none;
-  width:25rem;
-}
-#card-section .card img{
-  margin-left: 0.7rem;
-  margin-bottom: 1rem;
-  width: 4rem;
-}
-.card-text{
-  font-size:1rem;
-  color: var(--cardtext);
-  width: 100%;
-  font-weight: 500;
-}
-.card-title{
-  font-size: 1.2rem;
-  font-weight: 600;
-}
-/* CEO Section */
-
-.ceo {
-  position: relative;
-  padding: 6rem 0rem;
-  /* background-color: #004A80; */
-}
-.ceo .heading{
-  margin-bottom:1rem;
-  margin-top: 0rem;
-}
-
-.ceo-img {
-  position: relative;
-  padding:1.2rem;
-  
-}
-.ceo-img img{
-  height: 460px;
-}
-
-.ceo-img::before {
-  position: absolute;
- 
-  content: "";
-  right: 0px;
-  top: 0px;
-  width: 91%;
-  height: 100%;
-  border: 3px solid #263b5e;
-  z-index: -1;
-}
-
-.ceo-info{
-  padding-left: 6rem;
-  margin-top: 2rem;
-}
-.ceo-info .heading span{
-  color: var(--span-text);
-  font-size: 1.2rem;
-  font-weight: 600;
-  letter-spacing: normal;
-  text-transform: capitalize;
-}
-.ceo-info .heading {
-   font-size: 1.5rem;
-   font-weight: 700;
-}
-.ceo-info .para{
-  font-size: 1.2rem;
-  color: var(--light);
-
-}
-.ceo-info .para span{
-  font-weight: 700;
-}
-.ceo-info .para .color-text{
-  color: var(--span-text);
-}
-.ceo-follow {
-  display: flex;
-  gap: 2rem;
-  margin-left: 15rem;
-}
-.ceo-follow  h5{
-  text-align: center;
-  margin-top: 1.5rem;
-}
-.ceo-follow .social-link i{
-  color: var(--primary);
-  background: rgba(0, 74, 128, 0.20);
-  margin-top: 1rem;
-}
-/* About director */
-/* CEO Section */
-
-.director {
-  position: relative;
-  padding: 6rem 0rem;
- 
-}
-.director .heading{
-  margin-bottom:1rem;
-  margin-top: 0rem;
-}
-
-.director-img {
-  position: relative;
-  padding:1.2rem;
-  margin-left: 6rem;
-}
-.director-img img{
-  height: 440px;
-}
-.director-img::before {
-  position: absolute;
- 
-  content: "";
-  right: 0px;
-  top: 0px;
-  width: 91%;
-  height: 100%;
-  border: 3px solid #263b5e;
-  z-index: -1;
-}
-
-.director-info{
-  
-  margin-top: 2rem;
-}
-.director-info .heading span{
-  color: var(--span-text);
-  font-size: 1.2rem;
-  font-weight: 600;
-  letter-spacing: normal;
-  text-transform: capitalize;
-}
-.director-info .heading {
-   font-size: 1.5rem;
-   font-weight: 700;
-}
-.director-info .para{
-  font-size: 1.2rem;
-  color: var(--light);
-
-}
-.director-info .para span{
-  font-weight: 700;
-}
-.director-info .para .color-text{
-  color: var(--span-text);
-}
-.director-follow {
-  display: flex;
-  gap: 2rem;
-  margin-left: 15rem;
-}
-.director-follow  h5{
-  text-align: center;
-  margin-top: 1.5rem;
-}
-.director-follow .social-link i{
-  color: var(--primary);
-  background: rgba(0, 74, 128, 0.20);
-  margin-top: 1rem;
-}
-/* director2 */
-.director2 {
-  position: relative;
-  padding: 6rem 0rem;
-  /* background-color: #004A80; */
-}
-.director2 .heading{
-  margin-bottom:1rem;
-  margin-top: 0rem;
-}
-
-.director2-img {
-  position: relative;
-  padding:1.2rem;
-  
-}
-.director2-img img{
-  height:440px
-}
-.director2-img::before {
-  position: absolute;
- 
-  content: "";
-  right: 0px;
-  top: 0px;
-  width: 91%;
-  height: 100%;
-  border: 3px solid #263b5e;
-  z-index: -1;
-}
-
-.director2-info{
-  padding-left: 6rem;
-  margin-top: 2rem;
-}
-.director2-info .heading span{
-  color: var(--span-text);
-  font-size: 1.2rem;
-  font-weight: 600;
-  letter-spacing: normal;
-  text-transform: capitalize;
-}
-.director2-info .heading {
-   font-size: 1.5rem;
-   font-weight: 700;
-}
-.director2-info .para{
-  font-size: 1.2rem;
-  color: var(--light);
-
-}
-.director2-info .para span{
-  font-weight: 700;
-}
-.director2-info .para .color-text{
-  color: var(--span-text);
-}
-.director2-follow {
-  display: flex;
-  gap: 2rem;
-  margin-left: 15rem;
-}
-.director2-follow  h5{
-  text-align: center;
-  margin-top: 1.5rem;
-}
-.director2-follow .social-link i{
-  color: var(--primary);
-  background: rgba(0, 74, 128, 0.20);
-  margin-top: 1rem;
-}
-/* Launch Section */
-#launch{
-  padding: 6rem 0rem;
-
-}
-#launch .heading{
-  text-align: center;
-}
-#launch .heading h3{
-  font-size: 1.7rem;
-  font-weight: 600;
-}
-#launch .heading p{
-  font-size: 1.2rem;
-  width: 70%;
-  margin-left: 15rem;
-}
-#launch .card{
-  background-color: var(--primary);
-  color: var(--text);
-  text-align: center;
-  padding: 2rem 1rem;
-  
-}
-#launch #card2{
-  background-color: var(--secondary);
-}
-#launch #card3{
-  background-color: var(--fourth);
-}
-#launch #card4{
-  background-color: var(--tertiary);
-}
-#launch .card-title p{
-  line-height: 2rem;
-  font-size: 1.5rem;
-  font-weight: 700;
-
-}
-#launch .card-title{
-  margin-bottom: 3rem;
-}
-#launch .card-body a{
-  color: var(--text);
-  text-decoration: none;
-  font-size: 1.1rem;
- 
-}
-.launch-card{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 5rem;
-}
-/* school section */
-#school{
-  padding: 6rem 0rem;
-  background-color: var(--banner);
-
-}
-#school .heading{
-  text-align: center;
-}
-#school .heading h3{
-  font-size: 1.7rem;
-  font-weight: 600;
-}
-#school .heading p{
-  font-size: 1.2rem;
-  /* width: 70%;
-  margin-left: 15rem; */
-}
-#school .card{
-  background-color: var(--primary);
-  color: var(--text);
-  text-align: center;
-  padding: 2rem 1rem;
-  
-}
-#school #card2{
-  background-color: var(--secondary);
-}
-#school #card3{
-  background-color: var(--fourth);
-}
-#school #card4{
-  background-color: var(--tertiary);
-}
-#school .card-title p{
-  line-height: 2rem;
-  font-size: 1.5rem;
-  font-weight: 700;
-  
-
-}
-#school .card-title{
-  margin-bottom: 3rem;
-}
-#school .card-body a{
-  color: var(--text);
-  text-decoration: none;
-  font-size: 1.1rem;
- 
-}
-.school-card{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 5rem;
-}
-#school .section-bottom{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-#school .section-bottom p{
-  font-size: 1.2rem;
-  font-weight: 500;
-  margin-top: 3rem;
-}
-#school .btn-main{
-  background-color: var(--primary);
-  color: var(--text);
-}
-#school .btn-main-2{
-  background-color: var(--secondary);
-  color: var(--text);
-}
-#newsletter{
-  padding: 6rem 0rem;
-}
-#newsletter .container{
-  background-color: var(--primary);
-  padding: 3rem;
-}
-#newsletter .subtitle{
-  color: var(--text);
-  font-size: 1rem;
-  line-height: 1.5rem;
-  font-weight: 400;
-}
-#newsletter h3{
-  color: var(--text);
-  font-size: 3rem;
-  margin-top: 1.5rem;
-}
-#newsletter p{
-  color: var(--text);
-  width: 70%;
-  font-size: 1.2rem;
-}
-#newsletter .btn-main-2{
-  background-color: var(--secondary);
-  color: var(--text);
-}
-#newsletter input{
-  border: none;
-  outline: none;
-  padding: 0.5rem 1.2rem;
-  border-radius: 1.2rem;
-  width: 50%;
-
-}
-#newsletter input::placeholder{
-  color: var(--cardtext);
-  font-weight: 500;
 }
 /* Privacy section */
 #privacy{
@@ -869,85 +445,7 @@ li{
   text-decoration: none;
   color: var(--text) !important;
 }
-#vision{
-  background-color: var(--banner);
-  padding: 6rem 0rem;
-}
-#vision .heading{
-  text-align: center;
-}
-#vision h3{
-  font-size:2.5rem;
-  font-weight: 600;
-  
-}
-#vision p span{
-      font-size: 1.2rem;
-      letter-spacing: normal;
-      font-weight: 500;
-      text-transform: capitalize;
-      color: var(--secondary);
-}
-.vision-content p{
-  font-size: 1.2rem;
-  color: var(--light);
-}
-.vision-team{
-  color: var(--secondary);
-  font-size: 1.2rem;
-  font-weight: 600;
-  margin-top: 3rem;
-}
-/* Coup Section */
-#coup-section{
-  padding: 6rem 0rem;
-  position: relative;
-}
-.about-img{
-  display: flex;
-  align-items: center;
-  /* justify-content: space-between; */
-  gap: 2rem;
-}
-.about1-img{
- position: relative;
-}
-.about2-img{
- position: absolute;
-  bottom:3.5rem;
-  left:32rem;
-}
-.about-list{
-    /* margin-top: 2.8rem; */
-  
-    margin-left: 5rem;
-}
-.about-list ul li{
-  list-style-type:disc;
-  font-size: 1.2rem;
-  font-weight: 500;
-}
-.about-2 img{
-  margin-bottom: 1.7rem;
-}
-.about-content p{
-  font-size: 1.2rem;
-   color: var(--light);
-}
-.about-heading h3{
-  font-size: 1.7rem;
-  font-weight: 600;
-  margin-top: 1rem;
-}
-#coup-section .btn{
-  border-radius: 1.2rem;
-  margin-left: 0rem;
-  background-color: var(--primary);
-  color: var(--text);
-  border: var(--primary);
-  padding: 0.5rem 1.5rem;
-  text-transform: uppercase;
-}
+
 
 /* Best seller */
 #bestseller{
@@ -1022,10 +520,7 @@ li{
   .contact-link i{
     margin-right: 0.2rem;
   }
-  .social-link i{
-    font-size: 1rem;
-    padding: 0.5rem;
-  }
+ 
   /* Hero Section */
   
   .main-banner-content h1 {
@@ -1042,175 +537,6 @@ li{
   .carousel-item .hero1 .main-banner-content{
     width: 90%;
   }
-  /* Card Section */
-  
-  #card-section{
-    /* flex-wrap: wrap; */
-    padding: 4rem 0rem;
-    
-  } 
- 
-  #card-section .card{
-    /* margin-top: 3rem; */
-    max-height: 320px;
-    margin-right: 1rem;
-  }
-/* Ceo section */
-.ceo {
-  position: relative;
-  padding: 4rem 0rem;
-  /* background-color: #004A80; */
-}
-.ceo .heading{
-  margin-bottom:1rem;
-  margin-top: 0rem;
-}
-
-.ceo-img {
-  position: relative;
-  padding:1.2rem;
-  
-}
-.ceo-img img{
-  height: 510px;
-}
-
-.ceo-info{
-  padding-left: 2rem;
-  margin-top: 2rem;
-}
-.ceo-info .heading span{
-  color: var(--span-text);
-  font-size: 1.2rem;
-  font-weight: 600;
-  letter-spacing: normal;
-  text-transform: capitalize;
-}
-.ceo-info .heading {
-   font-size: 1.2rem;
-   font-weight: 700;
-   width: 100%;
-}
-.ceo-info .para{
-  font-size: 1.2rem;
-  color: var(--light);
-
-}
-.ceo-info .para span{
-  font-weight: 700;
-}
-.ceo-info .para .color-text{
-  color: var(--span-text);
-}
-.ceo-follow {
-  display: flex;
-  gap: 2rem;
-  margin-left: 1rem;
-}
-.ceo-follow  h5{
-  text-align: center;
-  margin-top: 1.5rem;
-}
-.ceo-follow .social-link i{
-  color: var(--primary);
-  background: rgba(0, 74, 128, 0.20);
-  margin-top: 1rem;
-}
-/* Director */
-.director {
-  position: relative;
-  padding: 4rem 0rem;
-  /* background-color: #004A80; */
-}
-.director .heading{
-  margin-bottom:1rem;
-  margin-top: 0rem;
-}
-
-.director-img {
-  position: relative;
-  padding:1.2rem;
-  margin-left: 1rem;
-}
-.director-img img{
-  height: 500px;
-}
-.director-info{
-  margin-top: 2rem;
-}
-.director-follow {
-  margin-left: 2rem;
-}
-/* director2 */
-.director2 {
-  position: relative;
-  padding: 4rem 0rem;
-  
-}
-.director2-img img{
-  height: 500px;
-}
-
-.director2-info{
-  padding-left: 1rem;
-}
-
-.director2-follow {
-  display: flex;
-  gap: 2rem;
-  margin-left: 2rem;
-}
-/* Launch Section */
-#launch{
-  padding: 4rem 0rem;
-
-}
-.launch-card{
-  display: flex;
-  flex-wrap: wrap;
-}
-#launch .heading p{
-  font-size: 1.2rem;
-  width: 100%;
-  margin-left: 0rem;
-}
-#launch .card{
-  background-color: var(--primary);
-  color: var(--text);
-  text-align: center;
-  padding: 2rem 1rem;
-  margin-top: 2rem;
-  
-}
-/* school section */
-#school{
-  padding: 4rem 0rem;
-  background-color: var(--banner);
-
-}
-
-#school .card{
-  background-color: var(--primary);
-  color: var(--text);
-  text-align: center;
-  padding: 2rem 1rem;
-  margin-right: 1rem;
-  
-}
-/* Newsletter */
-#newsletter{
-  padding: 4rem 0rem;
-}
-
-
-#newsletter p{
-  color: var(--text);
-  width: 100%;
-  font-size: 1.2rem;
-}
-.newsletter-img{
-  margin-top: 2rem;
-}
 
 /* Footer */
 .footer {
@@ -1227,54 +553,7 @@ li{
   margin-top: 1rem;
   font-size: 1rem;
 }
-#coup-section .col-lg-7, .col-lg-5 {
-  
-  width: 100%;
-  
-  flex: 0 0 100%;
-  max-width: 100%;
-}
-.about2-img {
-  position: absolute;
-  bottom: 0rem;
-  top: 28.5rem !important;
-  left: 17rem;
-}
-.about-heading h3{
-  margin-top: 7rem !important;
-  margin-left: 0rem !important;
-}
-.about-content p{
-  margin-left: 0rem !important;
-}
-.about-list {
-  margin-left: 8rem !important;
-}
-#coup-section .btn{
-  margin-left: 0rem !important;
-}
-}
-@media (max-width:1440px) {
-  .about2-img{
-    position: absolute;
-     bottom:4.5rem;
-     left:17rem;
-   }
-   .about-list{
-  
-    margin-left: 5rem;
-}
-.about-content p{
-  margin-left: 2rem;
-}
-.about-heading h3{
-  margin-left: 2rem;
-  
-}
-#coup-section .btn{
-  margin-left: 2rem;
-}
-}
+
 @media screen and (min-width:1280px) and (max-width:1396px){
  /* Header */
  .contact-link a{
@@ -1284,10 +563,7 @@ li{
 .contact-link i{
   margin-right: 0.2rem;
 }
-.social-link i{
-  font-size: 1rem;
-  padding: 0.5rem;
-}
+
  /* Hero Section */
   
  .main-banner-content h1 {
@@ -1304,61 +580,7 @@ li{
 .carousel-item .hero1 .main-banner-content{
   width: 90%;
 }
-/* Card Section */
-  
-#card-section{
-  /* flex-wrap: wrap; */
-  padding: 4rem 0rem;
-  
-} 
 
-#card-section .card{
-  /* margin-top: 3rem; */
-  max-height: 320px;
-  margin-right: 1rem;
-}
-/* ceo section */
-
-.ceo-info{
-  padding-left: 3rem;
-  margin-top: 2rem;
-}
-/* director2 */
-.director2-info{
-  padding-left: 3rem;
-}
-/* Launch */
-#launch{
-  padding: 6rem 0rem;
-
-}
-
-
-#launch .heading p{
-  font-size: 1.2rem;
-  width: 90%;
-  margin-left: 5rem;
-}
-#launch .card{
-  background-color: var(--primary);
-  color: var(--text);
-  text-align: center;
-  padding: 2rem 1rem;
-  margin-right: 1rem;
-  max-height:200px
-}
-/* school */
-
-#school .card{
-  margin-right: 1rem;
-  
-}
-/* newsletter */
-#newsletter p{
-  color: var(--text);
-  width: 80%;
-  font-size: 1.2rem;
-}
 /* footer */
 .footer .list-unstyled a{
   text-decoration: none;
@@ -1380,10 +602,7 @@ li{
 .social-link{
   gap: 2rem;
 }
-.social-link i{
-  font-size: 0.8rem;
-  padding: 0.5rem;
-}
+
 /* Navbar  */
 .navbar .btn{
   margin-left: 0rem;
@@ -1458,123 +677,6 @@ li{
 .carousel-item .hero2 .main-banner-content{
   width: 100%;
 }
-/* Card Section */
-#card-section{
-  flex-wrap: wrap;
-  padding: 3rem 0rem;
-  
-} 
-
-#card-section .card{
-  margin-top: 2.3rem;
-  margin-left: 22%;
-}
-/* Ceo section */
-.ceo {
-  position: relative;
-  padding: 3rem 0rem;
-
-}
-.ceo .heading{
-  margin-bottom:1rem;
-  margin-top: 0rem;
-}
- 
-
-.ceo-img img{
-  height: 400px;
-  
-}
-.ceo-info{
-  padding-left: 0rem;
-  margin-top: 2rem;
-}
-.ceo-follow h5{
-  margin-top: 1.2rem;
-}
-/* director */
-.director {
-  position: relative;
-  padding: 3rem 0rem;
-  
-  /* background-color: #004A80; */
-}
-
-.director-img img{
-  height: 400px;
-  
-}
-.director-follow h5{
-  margin-top: 1.2rem;
-}
-
-.director-img {
-  position: relative;
-  padding:1.2rem;
-  margin-left: 0rem;
-}
-/* director2 */
-.director2 {
-  position: relative;
-  padding: 3rem 0rem;
-  
-}
-.director2-img img{
-  height: 400px;
-}
-
-.director2-info{
-  padding-left: 0rem;
-}
-.director2-follow h5{
-  margin-top: 1.2rem;
-}
-/* Launch Section */
-#launch{
-  padding: 3rem 0rem;
-
-}
-.launch-card{
-  display: flex;
-  flex-wrap: wrap;
-}
-#launch .heading p{
-  font-size: 1.2rem;
-  width: 100%;
-  margin-left: 0rem;
-}
-#launch .card{
-  background-color: var(--primary);
-  color: var(--text);
-  text-align: center;
-  padding: 2rem 1rem;
-  margin-top: 2rem;
-  width: 20rem !important;
-}
-/* school section */
-#school{
-  padding: 3rem 0rem;
-  background-color: var(--banner);
- 
-}
-#school .card{
-  min-height: 20rem !important;
-  margin-right: 1rem;
-}
-
-/* Newsletter */
-#newsletter{
-  padding: 3rem 0rem;
-}
-.newsletter-content{
-  margin-top: 3rem;
-}
-
-#newsletter p{
-  color: var(--text);
-  width: 100%;
-  font-size: 1.2rem;
-}
 /* footer */
 .footer-content{
   text-align: center;
@@ -1598,25 +700,6 @@ li{
 .contact-info-block p{
   margin-left: 2rem;
 }
-.about2-img {
-  position: absolute;
-  bottom: 0rem;
-  top: 28.5rem !important;
-  left: 17rem;
-}
-.about-heading h3{
-  margin-top: 7rem !important;
-  margin-left: 0rem !important;
-}
-.about-content p{
-  margin-left: 0rem !important;
-}
-.about-list {
-  margin-left: 8rem !important;
-}
-#coup-section .btn{
-  margin-left: 0rem !important;
-}
 }
 @media (max-width:540px) {
   /* Header */
@@ -1634,10 +717,7 @@ li{
 .social-link{
   gap: 2rem;
 }
-.social-link i{
-  font-size: 0.8rem;
-  padding: 0.5rem;
-}
+
 /* Navbar  */
 .navbar .btn{
   margin-left: 0rem;
@@ -1725,146 +805,12 @@ li{
 .navbar img{
   width: 70%;
 }
-/* Card Section */
-#card-section{
-  flex-wrap: wrap;
-  padding: 3rem 0rem;
-  
-} 
-
-#card-section .card{
-  margin-top: 2.3rem;
-  margin-left: 12%;
-}
-/* Ceo section */
-.ceo {
-  position: relative;
-  padding: 3rem 2rem;
-
-}
-.ceo .heading{
-  margin-bottom:1rem;
-  margin-top: 0rem;
-}
- 
-
-.ceo-img img{
-  height: 400px;
-  
-}
-.ceo-info{
-  padding-left: 0rem;
-  margin-top: 2rem;
-}
-.ceo-follow {
-  margin-left: 2rem;
-}
-.ceo-follow h5{
-  margin-top: 1.2rem;
-}
-/* director */
-.director {
-  position: relative;
-  padding: 3rem 2rem;
-  
-  /* background-color: #004A80; */
-}
-
-.director-img img{
-  height: 400px;
-  
-}
-.director-follow h5{
-  margin-top: 1.2rem;
-}
-.director-follow {
-  margin-left: 2rem;
-}
-.director-img {
-  position: relative;
-  padding:1.2rem;
-  margin-left: 0rem;
-}
-/* director2 */
-.director2 {
-  position: relative;
-  padding: 3rem 2rem;
-  
-}
-.director2-img img{
-  height: 400px;
-}
-
-.director2-info{
-  padding-left: 0rem;
-}
-.director2-follow h5{
-  margin-top: 1.2rem;
-}
-.director2-follow {
-  margin-left: 2rem;
-}
-/* Launch Section */
-#launch{
-  padding: 3rem 2rem;
-
-}
-.launch-card{
-  display: flex;
-  flex-wrap: wrap;
-}
-#launch .heading p{
-  font-size: 1.2rem;
-  width: 100%;
-  margin-left: 0rem;
-}
-#launch .card{
-  background-color: var(--primary);
-  color: var(--text);
-  text-align: center;
-  padding: 2rem 1rem;
-  margin-top: 2rem;
-  width: 28rem !important;
-}
-/* school section */
-#school{
-  padding: 3rem 2rem;
-  background-color: var(--banner);
- 
-}
 #bestseller{
   padding: 3rem 2rem;
 }
 #bestseller img{
   width: 100%;
   padding-top: 2rem;
-}
- .school-card{
-  display: flex;
-  flex-wrap: wrap;
- }
- .school-card .card{
-  width: 28rem !important;
-  margin-top: 2rem;
- }
- #school .btn-container {
-  margin-top: 47px;
-}
-#school .btn-container .btn-main-2{
-  margin-top: 0.5rem;
-}
-/* Newsletter */
-#newsletter{
-  padding: 3rem 0rem;
-}
-.newsletter-content{
-  margin-top: 3rem;
-}
-
-#newsletter p{
-  color: var(--text);
-  width: 100%;
-  font-size: 1.2rem;
 }
 /* footer */
 .footer{
@@ -1888,15 +834,6 @@ li{
   gap: 1rem;
 }
 
-/* Vision */
-#vision{
-  padding: 3rem 2rem;
-}
-
-.vision-content p{
-  font-size: 1.2rem;
-  color: var(--light);
-}
 #contact{
   padding: 3rem 2rem;
 }
@@ -1909,23 +846,6 @@ li{
   margin-left: 0rem !important;
 }
 .contact-info-block p{
-  margin-left: 0rem !important;
-}
-#coup-section{
-  padding: 3rem 2rem;
-}
-.about-img {
-  display: none;
-}
-.about-heading h3{
-  margin-top: 0rem !important;
-  margin-left: 0rem !important;
-}
-.about-content p{
-  margin-left: 0rem !important;
-}
-
-#coup-section .btn{
   margin-left: 0rem !important;
 }
 }
@@ -1976,9 +896,7 @@ li{
   #terms span{
     font-size:1rem !important;
   } 
- #coup-section{
-  padding: 3rem 1rem !important;
- }
+ 
  #bestseller{
   padding: 3rem 1rem !important;
  }
@@ -1989,72 +907,8 @@ li{
   margin-top: 2.3rem;
   margin-left: 0% !important;
 }
-.ceo {
-  position: relative;
-  padding: 3rem 1rem !important;
-
-}
 #contact{
   padding: 3rem 1rem !important;
-}
-.ceo .heading{
-  margin-bottom:1rem;
-  margin-top: 0rem;
- 
-}
-.ceo .heading h2 {
-  font-size: 2rem;
-}
-.ceo  .heading .text-color{
-  font-size: 1rem;
-}
-.director {
-  position: relative;
-  padding: 3rem 1rem !important;
-
-}
-.director .heading{
-  margin-bottom:1rem;
-  margin-top: 0rem;
- 
-}
-.director .heading h2 {
-  font-size: 2rem;
-}
-.director .heading .text-color{
-  font-size: 1rem;
-}
-.director2 {
-  position: relative;
-  padding: 3rem 1rem !important;
-
-}
-.director2 .heading{
-  margin-bottom:1rem;
-  margin-top: 0rem;
- 
-}
-.director2 .heading h2 {
-  font-size: 2rem;
-}
-.director2 .heading .text-color{
-  font-size: 1rem;
-}
-#launch{
-  padding: 3rem 1rem !important;
-
-}
-#newsletter input{
-  width: 100% !important;
-}
-#newsletter .btn-main-2{
-  margin-top: 1rem !important;
-}
-#newsletter .subtitle{
-  font-size: 0.8rem !important;
-}
-#newsletter h3{
-  font-size: 2rem !important;
 }
 .footer-copy{
   display: flex;
@@ -2062,14 +916,7 @@ li{
   font-weight: 700;
   margin-left: 0rem !important;
 }
-#vision{
-  padding: 3rem 1rem !important;
-}
 
-.vision-content p{
-  font-size: 1.1rem !important;
-  color: var(--light);
-}
 .nav-link {
   font-size: 1rem !important;
   
@@ -2078,13 +925,7 @@ li{
  
   font-size: 3rem;
 }
-.launch-card {
-  padding-top: 0rem !important;
-}
-.school-card {
-  
-  padding-top: 0rem !important;
-}
+
 }
 @media (max-width:344px) {
   .navbar{
@@ -2094,39 +935,8 @@ li{
    .navbar img{
     width: 60% !important;
    }
-   .ceo .heading h2 {
-    font-size: 1.5rem !important;
-}
-.director .heading h2 {
-  font-size: 1.5rem !important;
-}
-.director2 .heading h2 {
-  font-size: 1.5rem !important;
-}
-.ceo-follow {
-  margin-left: 0rem !important;
-}
-.director-follow {
-  margin-left: 0rem !important;
-}
-.director2-follow {
-  margin-left: 0rem !important;
-}
-.director2-follow h5 {
-  
-  font-size: 1.2rem !important;
-}
-.director-follow h5 {
-  
-  font-size: 1.2rem !important;
-}
-.ceo-follow h5 {
-  
-  font-size: 1.2rem !important;
 }
 
 .btn-container a {
   font-size: 0.6rem !important;
-}
-
 }
