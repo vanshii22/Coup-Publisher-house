@@ -15,7 +15,7 @@ include_once 'components/navbar.php'; ?>
 </section>
 <!-- breadcrumb end -->
 <!-- Privacy section start -->
-<section id="privacy">
+<section class="privacy policies_content">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">

@@ -1,110 +1,75 @@
-
 <?php $current_page_url = "https:www.thecouppublishinghouse.in";
 $title = 'The Coup Publishing House | Best books Publisher in India';
 $description = 'The Coup Publishing House | Best books Publisher in India';
 $keywords = 'The Coup Publishing House, Best books Publisher in India';
 include_once 'components/navbar.php'; ?>
 
-
-<!-- Hero Section -->
-<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+<!-- Hero Section Start -->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="50000">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <section class="banner-main-3 hero1" id="banner-3">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-sm-12 col-md-6">
-                            <div class="main-banner-content">
-                                <span class="subtitle">Empowering Minds with Academic Excellence</span>
-                                <h1>
-                                    Discover Our Curated Selection of Academy Books
-                                </h1>
-                                <p class="mb-3 mt-4">Explore our carefully curated collection of academy books,
-                                    designed to inspire and empower learners at every level.</p>
-
-                                <div class="btn-container">
-                                    <a href="about-us.php" class="btn btn-main"> Learn More</a>
-                                    <a href="contact-us.php" class="btn btn-main-2 ml-0 ml-lg-2 ">Get It Now</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- <div class="col-lg-4 col-md-6">
-                              <div class="banner-img">
-                                  <img src="assets/images/hero-1.png" alt="" class="img-fluid w-100">
-                              </div>
-                          </div> -->
+            <img src="assets/images/hero_slider_01.png" class="d-block w-100 d-md-block d-none"
+                alt="Empowering Minds with Academic Excellence">
+            <div class="carousel-caption text-left">
+                <div class="caption-content">
+                    <span>Empowering Minds with Academic Excellence</span>
+                    <h1 class="display-4">Discover Our Curated Selection of Academy Books</h1>
+                    <p>Explore our carefully curated collection of academy books, designed to inspire and empower
+                        learners at every level.</p>
+                    <div class="btn-container mt-3">
+                        <a href="about-us.php" class="btn btn-primary">Learn More</a>
+                        <a href="contact-us.php" class="btn btn-2 ml-2">Contact Us</a>
                     </div>
                 </div>
-            </section>
+            </div>
         </div>
         <div class="carousel-item">
-            <section class="banner-main-3 hero2" id="banner-3">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6 col-sm-12 col-md-6">
-                            <div class="main-banner-content">
-                                <span class="subtitle">Unleash Your Imagination</span>
-                                <h1>
-                                    Dive into Our Fantasy Collection
-                                </h1>
-                                <p class="mb-3 mt-4">Step into worlds of wonder and magic with our enchanting Fantasy
-                                    Collection.</p>
-
-                                <div class="btn-container">
-                                    <a href="about-us.php" class="btn btn-main"> Learn More</a>
-                                    <a href="contact-us.php" class="btn btn-main-2 ml-0 ml-lg-2 ">Contact Us</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- <div class="col-lg-4 col-md-6">
-                              <div class="banner-img">
-                                  <img src="assets/images/hero-1.png" alt="" class="img-fluid w-100">
-                              </div>
-                          </div> -->
+            <img src="assets/images/hero_slider_02.png" class="d-block w-100 d-md-block d-none"
+                alt="Unleash Your Imagination">
+            <div class="carousel-caption text-left">
+                <div class="caption-content">
+                    <span>Unleash Your Imagination</span>
+                    <h1 class="display-4">Dive into Our Fantasy Collection</h1>
+                    <p>Step into worlds of wonder and magic with our enchanting Fantasy Collection.</p>
+                    <div class="btn-container mt-3">
+                        <a href="about-us.php" class="btn btn-primary">Learn More</a>
+                        <a href="contact-us.php" class="btn btn-2 ml-2">Contact Us</a>
                     </div>
                 </div>
-            </section>
+            </div>
         </div>
         <div class="carousel-item">
-            <section class="banner-main-3 hero3" id="banner-3">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-sm-12 col-md-6">
-                            <div class="main-banner-content">
-                                <span class="subtitle">Discover Your Genre</span>
-                                <h1>
-                                    Find the Stories That Speak to You
-                                </h1>
-                                <p class="mb-3 mt-4">Whether you're drawn to thrilling mysteries, heartfelt romances,
-                                    or thought-provoking non-fiction, our diverse range of genres has something for
-                                    every reader.</p>
-
-                                <div class="btn-container">
-                                    <a href="about-us.php" class="btn btn-main"> Learn More</a>
-                                    <a href="contact-us.php" class="btn btn-main-2 ml-0 ml-lg-2 ">Get It Now</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- <div class="col-lg-4 col-md-6">
-                              <div class="banner-img">
-                                  <img src="assets/images/hero-1.png" alt="" class="img-fluid w-100">
-                              </div>
-                          </div> -->
+            <img src="assets/images/hero_slider_03.png" class="d-block w-100 d-md-block d-none"
+                alt="Discover Your Genre">
+            <div class="carousel-caption text-left">
+                <div class="caption-content">
+                    <span>Discover Your Genre</span>
+                    <h1 class="display-4">Find the Stories That Speak to You</h1>
+                    <p>Whether you're drawn to thrilling mysteries, heartfelt romances, or thought-provoking
+                        non-fiction, our diverse range of genres has something for every reader.</p>
+                    <div class="btn-container mt-3">
+                        <a href="about-us.php" class="btn btn-primary">Learn More</a>
+                        <a href="contact-us.php" class="btn btn-2 ml-2">Contact Us</a>
                     </div>
                 </div>
-            </section>
+            </div>
         </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
+        <span class="sr-only">Next</span>
+    </a>
 </div>
-<!-- Hero section end -->
+<!-- Hero Section End -->
 
 <!-- Feature Section Start-->
 <section class="feature_sec">
@@ -143,17 +108,15 @@ include_once 'components/navbar.php'; ?>
 </section>
 <!-- Feature Section end -->
 
-
 <!-- Our Team Section Start -->
 <?php include_once 'includes/our-team.php' ?>
 <!-- Our Team Section End -->
 
 <!-- New Books Launch section start-->
-<?php include_once 'includes/books.php'?>
+<?php include_once 'includes/books.php' ?>
 <!-- New Books  launch section end -->
 
 <!--  Session & Programs section start -->
-
 <section class="session_program py-5">
     <div class="container">
         <div class="heading text-center">
@@ -194,7 +157,6 @@ include_once 'components/navbar.php'; ?>
         </div>
     </div>
 </section>
-
 <!-- Session & Programs section end -->
 
 <!-- Newsletter section  start-->

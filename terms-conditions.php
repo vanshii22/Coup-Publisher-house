@@ -15,7 +15,7 @@ include_once 'components/navbar.php'; ?>
 </section>
 <!-- breadcrumb end -->
 <!-- terms section start -->
-<section id="terms">
+<section class="terms policies_content">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">

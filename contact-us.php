@@ -1,4 +1,3 @@
-
 <?php $current_page_url = "https:www.thecouppublishinghouse.in/contact-us.php";
 $title = 'The Coup Publishing House | Contact Us';
 $description = 'The Coup Publishing House | Best books Publisher in India';
@@ -28,8 +27,8 @@ include_once 'components/navbar.php'; ?>
         </div>
 
         <div class="row">
-            <div class="col-lg-7 col-sm-12 pr-5 col-md-8">
-                <form class="contact__form form-row contact-form " method="post"
+            <div class="col-md-7 col-sm-12">
+                <form class="contact__form form-row contact-form" method="post"
                     action="https://pxelcode.com/tf-db/treaser-demo/treaser/mail.php" id="contactForm">
                     <div class="row">
                         <div class="col-12">
@@ -38,22 +37,22 @@ include_once 'components/navbar.php'; ?>
                             </div>
                         </div>
                     </div>
-
                     <div class="row">
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 col-12 mb-3">
                             <div class="form-group">
                                 <input type="text" id="name" name="name" class="form-control"
                                     placeholder="Enter Your Name">
                             </div>
                         </div>
 
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 col-12">
                             <div class="form-group">
                                 <input type="text" name="email" id="email" class="form-control"
                                     placeholder="Enter Your Email Address">
                             </div>
                         </div>
-                        <div class="col-lg-12">
+
+                        <div class="col-lg-12 col-12">
                             <div class="form-group">
                                 <textarea id="message" name="message" cols="30" rows="6" class="form-control"
                                     placeholder="Your Message"></textarea>
@@ -61,18 +60,19 @@ include_once 'components/navbar.php'; ?>
                         </div>
                     </div>
 
-                    <div class="col-lg-12 ">
-                        <div class="d-lg-flex justify-content-between mt-4">
-                            <p>* Rest assured.We will not spam at your inbox.</p>
-                            <input id="submit" name="submit" type="submit" class="btn btn-main btn-rounded"
-                                value="Send Message">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="d-lg-flex justify-content-between align-items-center mt-4">
+                                <p class="mb-2 mb-lg-0">* Rest assured. We will not spam your inbox.</p>
+                                <input id="submit" name="submit" type="submit" class="btn btn-main btn-rounded"
+                                    value="Send Message">
+                            </div>
                         </div>
                     </div>
                 </form>
             </div>
-
-            <div class="col-lg-4 col-sm-12 col-md-4">
-                <div class="contact-info-block mb-4 mt-5 mt-lg-0 mt-md-0">
+            <div class="col-md-5 col-sm-12 mt-5 mt-md-0">
+                <div class="contact-info-block mb-4">
                     <h4 class="mb-2">Contact</h4>
                     <p>+91 8267992305</p>
                 </div>
@@ -88,18 +88,20 @@ include_once 'components/navbar.php'; ?>
                 </div>
             </div>
         </div>
+
     </div>
 </section>
 <!-- Contact end -->
+
 <!-- Seller Section -->
-<section id="bestseller">
+<section class="bestseller py-2">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12">
-                <a href="our-books.php"><img src="assets/images/section3contact.png" alt="img1"></a>
+            <div class="col-md-6 col-sm-12 mb-3">
+                <a href="our-books.php"><img src="assets/images/section3contact.png" alt="img1" class="w-100"></a>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
-                <a href="our-books.php"><img src="assets/images/contactsec3-2.png" alt="img2"></a>
+            <div class="col-md-6 col-sm-12">
+                <a href="our-books.php"><img src="assets/images/contactsec3-2.png" alt="img2" class="w-100"></a>
             </div>
         </div>
     </div>

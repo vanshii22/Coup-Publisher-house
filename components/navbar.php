@@ -2,23 +2,27 @@
 $current_page = basename($_SERVER['PHP_SELF']) ?>
 
 <body>
-    <!-- Header -->
-    <div id="header">
+
+    <!-- Top Navbar Start-->
+    <div class="top_header">
         <div class="container">
-            <div class="contact-link">
-                <a href="#" class="top_tag"><i class="fa-solid fa-bookmark"></i> Best books Publisher in India</a>
-                <a href="mailto:thecouppublishinghouse@gmail.com" class="top_email"><i
-                        class="fa-solid fa-envelope"></i>thecouppublishinghouse@gmail.com</a>
-                <a href="tel:+918267992305" class="top_phone"><i class="fa-solid fa-phone"></i>+91 8267992305</a>
-            </div>
-            <div class="social-link">
-                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="https://x.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <div class="top_wrapper text-light">
+                <div class="top_tag"><i class="fa-solid fa-bookmark"></i> Best Book Publisher in India</div>
+                <div class="top_email"><a href="mailto:thecouppublishinghouse@gmail.com" class="top_email"><i
+                            class="fa-solid fa-envelope"></i> thecouppublishinghouse@gmail.com</a></div>
+                <div class="top_phone"><a href="tel:+918267992305" class="top_phone"><i class="fa-solid fa-phone"></i>
+                        +91 8267992305</a></div>
+                <div class="social-link">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://x.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </div>
             </div>
         </div>
     </div>
+    <!-- Top Navbar End-->
+
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
         <div class="container">
@@ -50,12 +54,10 @@ $current_page = basename($_SERVER['PHP_SELF']) ?>
                         <a class="nav-link <?php echo ($current_page == 'about-us.php#team') ? 'active' : ''; ?>"
                             href="about-us.php#team">Our Team</a>
                     </li>
+                    <li class="nav-item">
+                        <a href="contact-us.php" class="btn btn-outline-success">Contact Us</a>
+                    </li>
                 </ul>
-                <form class="d-flex">
-                    <button class="btn btn-outline-success" id="navbar-btn">
-                        <a href="contact-us.php">Contact Us</a>
-                    </button>
-                </form>
             </div>
         </div>
     </nav>

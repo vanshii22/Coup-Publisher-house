@@ -1,14 +1,4 @@
 
-
-<!-- bootstrap js cdn -->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
-</script>
-<!-- Custom js -->
-<script src="assets/js/script.js"></script>
 <!-- Footer Start -->
 <footer class="footer">
     <div class="footer-top section">
@@ -43,7 +33,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-3 col-md-6 col-sm-6">
+                <div class="col-xl-4 col-md-6 col-sm-6">
                     <div class="footer-widget footer-menu">
                         <h4>Contact Info</h4>
                         <ul class="list-unstyled">
@@ -56,34 +46,33 @@
             </div>
         </div>
     </div>
-
     <div class="footer-bottom">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-7">
                     <div class="footer-copy ">
-                        <a href="privacy-policy.php">PRIVACY POLICY</a>
+                        <a href="privacy-policy.php">PRIVACY POLICY</a> &nbsp; &nbsp;
                         <a href="terms-conditions.php">TERMS & CONDITIONS</a>
 
                     </div>
                 </div>
 
-            </div> <!-- / .row -->
+            </div> 
         </div>
     </div>
     <div class="footer-copyright">
         <div class="container">
+        <hr>
+
             <div class="row align-items-center">
                 <div class="col-lg-8 col-md-12">
                     <div class="footer-content copyright ">
-                        <p>Copyright ©<span>The Coup Publishing House</span> 2024. All Rights Reserved</p>
+                        <p>Copyright ©<b>The Coup Publishing House</b> 2024. All Rights Reserved</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12">
                     <div class="footer-content naestinn ">
-                        <a href="https://www.naestinn.com/" target="_blank">Designed & Developed by <span>Naestinn</span></a>
-                       
-
+                        <a href="https://www.naestinn.com/" target="_blank"><strong>Designed & Developed by <span>Naestinn</span></strong></a>
                     </div>
                 </div>
             </div> 
@@ -91,6 +80,16 @@
     </div>
 </footer>
 <!--  Footer End -->
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- bootstrap js cdn -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+<!-- Custom js -->
+<script src="assets/js/script.js"></script>
 
 </body>
 

@@ -6,7 +6,7 @@ $keywords = 'The Coup Publishing House, Best books Publisher in India';
 include_once 'components/navbar.php'; ?>
 
 <!-- breadcrumbt start -->
-<section id="breadcrumb" class="about-page">
+<section id="breadcrumb" class="about-page page-banner">
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
             <li class="breadcrumb-item active text-center" aria-current="page"><a href="#">About Us</a></li>
@@ -45,7 +45,7 @@ include_once 'components/navbar.php'; ?>
 <!-- Intro section end -->
 
 <!-- Vision Section Start -->
-<section class="vision mb-5 py-5">
+<section class="vision mb-5 py-5" id="vision">
     <div class="container">
         <div class="heading text-center">
             <h3>OUR VISION</h3>
