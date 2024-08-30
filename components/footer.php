@@ -5,14 +5,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-4 mr-auto col-md-6 col-sm-6">
-                    <div class="footer-widget logo mb-5 mb-lg-0">
+                    <div class="footer-widget logo mb-lg-0">
                         <img src="assets/images/logo.png" alt="">
                         <p>At The Coup Publishing House, we are passionate about bringing stories to life and fostering a love for reading. With a commitment to quality and creativity.</p>
 
                     </div>
                 </div>
+                <!-- <div class="col-xl-1"></div> -->
                 <div class="col-xl-2 col-md-6 col-sm-6">
-                    <div class="footer-widget footer-menu mb-5 mb-lg-0">
+                    <div class="footer-widget footer-menu mb-lg-0">
                         <h4>Company</h4>
 
                         <ul class="list-unstyled">
@@ -24,7 +25,7 @@
                     </div>
                 </div>
                 <div class="col-xl-2 col-md-6 col-sm-6">
-                    <div class="footer-widget footer-menu mb-5 mb-lg-0">
+                    <div class="footer-widget footer-menu mb-lg-0">
                         <h4>Important</h4>
                         <ul class="list-unstyled">
                             <li><a href="our-books.php">Our Books</a></li>
@@ -33,13 +34,13 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-6 col-sm-6">
+                <div class="col-xl-3 col-md-6 col-sm-6">
                     <div class="footer-widget footer-menu">
                         <h4>Contact Info</h4>
                         <ul class="list-unstyled">
-                            <li><span>Email :</span> <a href="mailto:thecouppublishinghouse@gmail.com">thecouppublishinghouse@gmail.com</a></li>
-                            <li><span>Phone :</span> <a href="tel:+918267992305">+91 8267992305</a> </li>
-                            <li><span>Location :</span> Narayanam-47 Baghpat Road Meerut</li>
+                            <li><b>Email :</b> <a href="mailto:thecouppublishinghouse@gmail.com">thecouppublishinghouse@gmail.com</a></li>
+                            <li><b>Phone :</b> <a href="tel:+918267992305">+91 8267992305</a> </li>
+                            <li><b>Location :</b> Narayanam-47 Baghpat Road Meerut</li>
                         </ul>
                     </div>
                 </div>

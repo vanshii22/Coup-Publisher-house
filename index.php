@@ -4,6 +4,8 @@ $description = 'The Coup Publishing House | Best books Publisher in India';
 $keywords = 'The Coup Publishing House, Best books Publisher in India';
 include_once 'components/navbar.php'; ?>
 
+
+
 <!-- Hero Section Start -->
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="50000">
     <ol class="carousel-indicators">
@@ -71,6 +73,20 @@ include_once 'components/navbar.php'; ?>
 </div>
 <!-- Hero Section End -->
 
+
+<!-- hero Img section start -->
+<section class="hero_img">
+        <div class="row align-items-center">
+            <div class="col-sm-12">
+                <div class="about_img">
+                    <img src="assets/images/hero_slider_011.png" alt="" class=" w-100">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- hero Img section end -->
+ 
 <!-- Feature Section Start-->
 <section class="feature_sec">
     <div class="container">

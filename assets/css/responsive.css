@@ -119,7 +119,9 @@
     .main-banner-content {
         padding: 1rem 1rem !important;
     }
-
+    section.hero_img{
+        display: block;
+    }
     .banner-main-3 {
         padding: 1rem 0 !important;
     }
@@ -156,6 +158,7 @@
     .newsletter_sec .newsletter_wrapper form input {
         margin-bottom: 1rem;
     }
+    
 }
 
 @media screen and (max-width: 425px) {
@@ -184,6 +187,13 @@
 
     .session_program .btn-part a:nth-child(2) {
         margin: 1rem 0;
+    }
+    .policies_content h3 {
+        font-size: 1.2rem;
+    }
+    
+    .policies_content p {
+        font-size: 1rem;
     }
 }
 

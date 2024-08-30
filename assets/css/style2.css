@@ -162,6 +162,9 @@ li {
 }
 
 /* =========== Hero Slider Section =========== */
+section.hero_img{
+    display: none;
+}
 .carousel-caption {
     position: absolute;
     left: 10%;
@@ -365,7 +368,7 @@ li {
 /* =========== Footer =========== */
 
 footer,
-section {
+section, .section {
     overflow-x: hidden;
 }
 
