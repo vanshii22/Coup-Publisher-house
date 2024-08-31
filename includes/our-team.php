@@ -3,7 +3,7 @@
         <div class="row align-items-center py-3 member">
             <div class="col-lg-6">
                 <div class="member-img">
-                    <img src="assets/images/shubham.png" alt="Founder & CEO : SUBHAM SHARMA" class="img-fluid ">
+                    <img src="assets/images/shubham.webp" alt="Founder & CEO : SUBHAM SHARMA" class="img-fluid ">
                 </div>
                 <div class="member-follow">
                     <h5>Follow me @ </h5>
@@ -59,7 +59,7 @@
             </div>
             <div class="col-lg-6 member-img-wrapper">
                 <div class="member-img">
-                    <img src="assets/images/iram.png" alt="Managing Director & Exam Controller : IRAM JAHAN"
+                    <img src="assets/images/iram.webp" alt="Managing Director & Exam Controller : IRAM JAHAN"
                         class="img-fluid ">
                 </div>
                 <div class="member-follow">
@@ -76,7 +76,7 @@
         <div class="row align-items-center py-3 member">
             <div class="col-lg-6">
                 <div class="member-img">
-                    <img src="assets/images/karishma.png" alt="Director -Ghaziabad zone : KARISHMA SHARMA"
+                    <img src="assets/images/karishma.webp" alt="Director -Ghaziabad zone : KARISHMA SHARMA"
                         class="img-fluid ">
                 </div>
                 <div class="member-follow">

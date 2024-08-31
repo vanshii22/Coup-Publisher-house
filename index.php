@@ -1,10 +1,8 @@
 <?php $current_page_url = "https:www.thecouppublishinghouse.in";
 $title = 'The Coup Publishing House | Best books Publisher in India';
-$description = 'The Coup Publishing House | Best books Publisher in India';
-$keywords = 'The Coup Publishing House, Best books Publisher in India';
+$description = 'Explore The Coup Publishing House, where stories come to life. Browse our diverse collection of genres and find your next favorite read.';
+$keywords = 'book publishing, book store, buy books online, genres, The Coup Publishing House';
 include_once 'components/navbar.php'; ?>
-
-
 
 <!-- Hero Section Start -->
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="50000">
@@ -15,7 +13,7 @@ include_once 'components/navbar.php'; ?>
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="assets/images/hero_slider_01.png" class="d-block w-100 d-md-block d-none"
+            <img src="assets/images/hero_slider_01.webp" class="d-block w-100 d-md-block d-none"
                 alt="Empowering Minds with Academic Excellence">
             <div class="carousel-caption text-left">
                 <div class="caption-content">
@@ -31,7 +29,7 @@ include_once 'components/navbar.php'; ?>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="assets/images/hero_slider_02.png" class="d-block w-100 d-md-block d-none"
+            <img src="assets/images/hero_slider_02.webp" class="d-block w-100 d-md-block d-none"
                 alt="Unleash Your Imagination">
             <div class="carousel-caption text-left">
                 <div class="caption-content">
@@ -46,7 +44,7 @@ include_once 'components/navbar.php'; ?>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="assets/images/hero_slider_03.png" class="d-block w-100 d-md-block d-none"
+            <img src="assets/images/hero_slider_03.webp" class="d-block w-100 d-md-block d-none"
                 alt="Discover Your Genre">
             <div class="carousel-caption text-left">
                 <div class="caption-content">
@@ -79,7 +77,7 @@ include_once 'components/navbar.php'; ?>
         <div class="row align-items-center">
             <div class="col-sm-12">
                 <div class="about_img">
-                    <img src="assets/images/hero_slider_011.png" alt="" class=" w-100">
+                    <img src="assets/images/hero_slider_011.webp" alt="The Coup Publishing House" class=" w-100">
                 </div>
             </div>
         </div>
@@ -93,7 +91,7 @@ include_once 'components/navbar.php'; ?>
         <div class="row card_wrapper my-5">
             <div class="col-lg-4 col-md-6 col-sm-12 card p-5 px-3">
                 <div class="card-body">
-                    <img src="assets/images/icon.png" alt="" width="15%" class="pb-3 ml-0">
+                    <img src="assets/images/cardicon1.svg" alt="Diverse Book Collection" width="15%" class="pb-3 ml-0">
                     <h5 class="card-title">Diverse Book Collection</h5>
                     <p class="card-text">From classic literature to cutting-edge non-fiction, our extensive catalog
                         offers
@@ -102,7 +100,7 @@ include_once 'components/navbar.php'; ?>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 card p-5 px-3">
                 <div class="card-body">
-                    <img src="assets/images/cardicon2.png" alt="" width="15%" class="pb-3 ml-0">
+                    <img src="assets/images/cardicon2.svg" alt="Exclusive Pre-Orders" width="15%" class="pb-3 ml-0">
                     <h5 class="card-title">Exclusive Pre-Orders</h5>
                     <p class="card-text">Be the first to get your hands on new releases with our exclusive pre-order
                         options.
@@ -111,7 +109,7 @@ include_once 'components/navbar.php'; ?>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 card p-5 px-3">
                 <div class="card-body">
-                    <img src="assets/images/cardicon3.png" alt="" width="15%" class="pb-3 ml-0">
+                    <img src="assets/images/cardicon3.svg" alt="Spotlights" width="15%" class="pb-3 ml-0">
                     <h5 class="card-title">Author Spotlights</h5>
                     <p class="card-text">Get to know the brilliant minds behind your favorite books with exclusive
                         interviews

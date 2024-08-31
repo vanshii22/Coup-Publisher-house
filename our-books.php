@@ -1,8 +1,8 @@
 
 <?php $current_page_url = "https:www.thecouppublishinghouse.in/our-books.php";
 $title = 'The Coup Publishing House | Our Books';
-$description = 'The Coup Publishing House | Best books Publisher in India';
-$keywords = 'The Coup Publishing House, Best books Publisher in India';
+$description = 'Explore our extensive collection of books across various genres. From fantasy to academic, find the perfect book for your reading pleasure.';
+$keywords = 'book collection, genres, academic books, fantasy books, new releases';
 include_once 'components/navbar.php'; ?>
 
 <!-- breadcrumbt start -->

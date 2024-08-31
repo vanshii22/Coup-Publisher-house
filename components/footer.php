@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="col-xl-4 mr-auto col-md-6 col-sm-6">
                     <div class="footer-widget logo mb-lg-0">
-                        <img src="assets/images/logo.png" alt="">
+                        <img src="assets/images/logo.png" alt="The Coup Publishing House">
                         <p>At The Coup Publishing House, we are passionate about bringing stories to life and fostering a love for reading. With a commitment to quality and creativity.</p>
 
                     </div>
@@ -15,7 +15,6 @@
                 <div class="col-xl-2 col-md-6 col-sm-6">
                     <div class="footer-widget footer-menu mb-lg-0">
                         <h4>Company</h4>
-
                         <ul class="list-unstyled">
                             <li><a href="about-us.php">About Us</a></li>
                             <li><a href="about-us.php#team">Our team</a></li>
@@ -84,10 +83,8 @@
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 <!-- bootstrap js cdn -->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
 <!-- Custom js -->
 <script src="assets/js/script.js"></script>

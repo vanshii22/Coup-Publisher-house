@@ -1,8 +1,8 @@
  
  <?php $current_page_url = "https:www.thecouppublishinghouse.in/terms-conditions.php";
 $title = 'The Coup Publishing House | Terms & Conditions';
-$description = 'The Coup Publishing House | Best books Publisher in India';
-$keywords = 'The Coup Publishing House, Best books Publisher in India';
+$description = 'Read the Terms & Conditions of The Coup Publishing House website. Learn about the rules and guidelines for using our services and purchasing our books.';
+$keywords = 'terms and conditions, user agreement, site rules, The Coup Publishing House';
 include_once 'components/navbar.php'; ?>
 
    <!-- breadcrumbt start -->

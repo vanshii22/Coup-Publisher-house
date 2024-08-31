@@ -1,7 +1,7 @@
 <?php $current_page_url = "https:www.thecouppublishinghouse.in/contact-us.php";
 $title = 'The Coup Publishing House | Contact Us';
-$description = 'The Coup Publishing House | Best books Publisher in India';
-$keywords = 'The Coup Publishing House, Best books Publisher in India';
+$description = 'Get in touch with The Coup Publishing House. We are here to answer your questions, provide support, or help you discover your next great read.';
+$keywords = 'contact, The Coup Publishing House, customer support, inquiries, book publishing';
 include_once 'components/navbar.php'; ?>
 
 <!-- breadcrumbt start -->
@@ -28,8 +28,9 @@ include_once 'components/navbar.php'; ?>
 
         <div class="row">
             <div class="col-md-7 col-sm-12">
-                <form class="contact__form form-row contact-form" method="post"
-                    action="https://pxelcode.com/tf-db/treaser-demo/treaser/mail.php" id="contactForm">
+                <form class="contact__form form-row contact-form" method="POST" name="contact"
+                    action="" id="contactForm">
+                    <input type="hidden" name="formType" value="contact">
                     <div class="row">
                         <div class="col-12">
                             <div class="alert alert-success contact__msg" style="display: none" role="alert">
@@ -40,21 +41,34 @@ include_once 'components/navbar.php'; ?>
                     <div class="row">
                         <div class="col-lg-6 col-12 mb-3">
                             <div class="form-group">
-                                <input type="text" id="name" name="name" class="form-control"
+                                <input type="text" id="name" name="Name" class="form-control"
                                     placeholder="Enter Your Name">
                             </div>
                         </div>
 
                         <div class="col-lg-6 col-12">
                             <div class="form-group">
-                                <input type="text" name="email" id="email" class="form-control"
+                                <input type="email" name="Email" id="email" class="form-control"
                                     placeholder="Enter Your Email Address">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-12 mb-3">
+                            <div class="form-group">
+                                <input type="number" id="phone" name="Phone" class="form-control"
+                                    placeholder="Enter Your Phone Number">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-12">
+                            <div class="form-group">
+                                <input type="text" name="Location" id="location" class="form-control"
+                                    placeholder="Enter Your location">
                             </div>
                         </div>
 
                         <div class="col-lg-12 col-12">
                             <div class="form-group">
-                                <textarea id="message" name="message" cols="30" rows="6" class="form-control"
+                                <textarea id="message" name="Message" cols="30" rows="6" class="form-control"
                                     placeholder="Your Message"></textarea>
                             </div>
                         </div>
@@ -98,10 +112,10 @@ include_once 'components/navbar.php'; ?>
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-12 mb-3">
-                <a href="our-books.php"><img src="assets/images/section3contact.png" alt="img1" class="w-100"></a>
+                <a href="our-books.php"><img src="assets/images/section3contact.webp" alt="The Coup Publishing House Best Seller" class="w-100"></a>
             </div>
             <div class="col-md-6 col-sm-12">
-                <a href="our-books.php"><img src="assets/images/contactsec3-2.png" alt="img2" class="w-100"></a>
+                <a href="our-books.php"><img src="assets/images/contactsec3-2.webp" alt="The Coup Publishing House new realease" class="w-100"></a>
             </div>
         </div>
     </div>

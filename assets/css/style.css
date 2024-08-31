@@ -423,23 +423,23 @@ section.vision {
 }
 
 .about-page {
-    background: url("../images/contact.png") !important;
+    background: url("../images/contact.webp") !important;
 }
 
 .contact-page {
-    background: url("../images/contact.png") !important;
+    background: url("../images/contact.webp") !important;
 }
 
 .privacy-page {
-    background: url("../images/privacy.png") !important;
+    background: url("../images/privacy.webp") !important;
 }
 
 .terms-page {
-    background: url("../images/terms.png") !important;
+    background: url("../images/terms.webp") !important;
 }
 
 .books {
-    background: url("../images/books.png") !important;
+    background: url("../images/books.webp") !important;
 }
 
 .breadcrumb li {

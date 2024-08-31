@@ -1,8 +1,8 @@
 
 <?php $current_page_url = "https:www.thecouppublishinghouse.in/about-us.php";
 $title = 'The Coup Publishing House | About Us';
-$description = 'The Coup Publishing House | Best books Publisher in India';
-$keywords = 'The Coup Publishing House, Best books Publisher in India';
+$description = 'Learn more about The Coup Publishing House, our mission, and how we bring stories to life. Dedicated to quality and creativity, we offer books for every reader.';
+$keywords = 'about The Coup Publishing House, book publishing, mission, story';
 include_once 'components/navbar.php'; ?>
 
 <!-- breadcrumbt start -->
@@ -21,7 +21,7 @@ include_once 'components/navbar.php'; ?>
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="about_img">
-                    <img src="assets/images/aboutsec.png" alt="" class="about-img" width="90%">
+                    <img src="assets/images/aboutsec.webp" alt="" class="About Coup Publishing House" width="90%">
                 </div>
             </div>
             <div class="col-lg-6">

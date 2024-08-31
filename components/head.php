@@ -2,8 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
-
     <title><?php if (isset($title)) {
                 echo $title;
             } else {
@@ -23,13 +21,13 @@
     <meta name="description" content="<?php if (isset($description)) {
                                             echo $description;
                                         } else {
-                                            echo "The Coup Publishing House | Best books Publisher in India.";
+                                            echo "Explore The Coup Publishing House, where stories come to life. Browse our diverse collection of genres and find your next favorite read.";
                                         } ?>" />
 
     <meta name="keywords" content="<?php if (isset($keywords)) {
                                         echo $keywords;
                                     } else {
-                                        echo "The Coup Publishing House, Best books Publisher in India";
+                                        echo "book publishing, book store, buy books online, genres, The Coup Publishing House";
                                     } ?>" />
 
     <meta name="allow-search" content="yes" />
@@ -39,7 +37,7 @@
     <meta property="og:description" content="The Coup Publishing House, Best books Publisher in India" />
     <meta property="og:url" content="https://www.thecouppublishinghouse.in" />
     <meta property="og:site_name" content="The Coup Publishing House" />
-    <meta property="og:image" content="https://www.thecouppublishinghouse.in/assets/images/logo.png" />
+    <meta property="og:image" content="https://www.thecouppublishinghouse.in/assets/images/logo.svg" />
     <meta name="twitter:card" content="summary_large_image" />
 
     <!-- Fav Icon -->
@@ -49,8 +47,8 @@
    <!-- Bootstrap css cdn -->
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
    <!-- css -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <link rel="stylesheet" href="assets/css/responsive.min.css">
     <!-- Fontawesome icons cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>

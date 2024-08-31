@@ -1,8 +1,8 @@
  
  <?php $current_page_url = "https:www.thecouppublishinghouse.in/privacy-policy.php";
 $title = 'The Coup Publishing House | Privacy Policy';
-$description = 'The Coup Publishing House | Best books Publisher in India';
-$keywords = 'The Coup Publishing House, Best books Publisher in India';
+$description = 'Review our Privacy Policy to understand how The Coup Publishing House collects, uses, and protects your personal information when you use our website.';
+$keywords = 'privacy policy, data protection, personal information, user privacy';
 include_once 'components/navbar.php'; ?>
 
    <!-- breadcrumbt start -->
